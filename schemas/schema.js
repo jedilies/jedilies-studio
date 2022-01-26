@@ -1,15 +1,14 @@
-// First, we must import the schema creator
+// schema creator import
 import createSchema from 'part:@sanity/base/schema-creator'
 
-// Then import schema types from any plugins that might expose them
+// schema imports
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
-// Then we give our schema to the builder and provide the result to Sanity
+// builder
 export default createSchema({
-  // We name our schema
+  // schema name
   name: 'default',
-  // Then proceed to concatenate our document type
-  // to the ones provided by any plugins that are installed
+  //document types
   types: schemaTypes.concat([
     /* Your types here! */
   ]),
