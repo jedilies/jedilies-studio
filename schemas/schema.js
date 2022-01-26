@@ -3,6 +3,14 @@ import createSchema from 'part:@sanity/base/schema-creator'
 
 // schema imports
 import schemaTypes from 'all:part:@sanity/base/schema-type'
+/* OBJECTS ---------------------------------------------- */
+import ptext from './objects/ptext'
+import ptextLite from './objects/ptextLite'
+
+/* DOCUMENTS ---------------------------------------------- */
+import article from './documents/article'
+import category from './documents/category'
+import tag from './documents/tag'
 
 // builder
 export default createSchema({
@@ -10,6 +18,12 @@ export default createSchema({
   name: 'default',
   //document types
   types: schemaTypes.concat([
-    /* Your types here! */
+    /* DOCUMENTS */
+    article,
+    category,
+    tag,
+    /* OBJECTS */
+    ptext,
+    ptextLite,
   ]),
 })
