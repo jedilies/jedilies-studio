@@ -1,8 +1,10 @@
+import { GiBeech } from "react-icons/gi"
 
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
+  icon: GiBeech,
   fields: [
     {
       name: 'title',

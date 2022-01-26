@@ -5,7 +5,6 @@ nice stuff to try and use
 
 ### plugins
 - [code input](https://www.sanity.io/plugins/code-input)
-- 
 - [media browser](https://www.sanity.io/plugins/sanity-plugin-media)
 - [super-pane](https://www.sanity.io/plugins/super-pane)
 - [md input](https://www.sanity.io/plugins/sanity-plugin-markdown)
@@ -21,12 +20,10 @@ nice stuff to try and use
 - [ts typesgen](https://www.sanity.io/plugins/sanity-codegen)
 - [color picker](https://www.sanity.io/plugins/sanity-plugin-color-picker)
 - [mines dash widget](https://www.sanity.io/plugins/sanity-plugin-minesweeper)
-- 
-
 
 ---
 ## Refs
 - [importing data](https://www.sanity.io/docs/importing-data)
 - [connected content](https://www.sanity.io/docs/connected-content)
 - [block content](https://www.sanity.io/docs/block-content)
-- 
+- [vercel deploy](https://vercel.com/guides/deploying-sanity-studio-with-vercel)
