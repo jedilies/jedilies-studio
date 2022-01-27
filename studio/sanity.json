@@ -8,13 +8,15 @@
     "dataset": "production"
   },
   "plugins": [
+    "@sanity/dashboard",
+    "dashboard-widget-vercel",
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
     "media",
     "icon-picker",
-    "@sanity/dashboard"
+    "content-calendar"
   ],
   "env": {
     "development": {
@@ -28,9 +30,17 @@
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
     },
-    { 
-      "implements": "part:@sanity/dashboard/config", 
-      "path": "./parts/dashboardConfig.js" 
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "./parts/dashboardConfig.js"
+    },
+    {
+      "implements": "part:@sanity/form-builder/input/image/asset-sources",
+      "path": "./parts/assetSources.js"
+    },
+    {
+      "implements": "part:@sanity/form-builder/input/file/asset-sources",
+      "path": "./parts/assetSources.js"
     }
   ]
 }

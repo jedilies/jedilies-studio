@@ -2,7 +2,7 @@
   "name": "jedilies",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "Sanity Studio for personal projects & testing",
   "main": "package.json",
   "author": "Julia Silver <julesrsilver@gmail.com>",
   "license": "UNLICENSED",
@@ -11,22 +11,26 @@
     "build": "sanity build public -y"
   },
   "keywords": [
-    "sanity"
+    "sanity",
+    "blog",
+    "webdev"
   ],
   "dependencies": {
-    "@sanity/base": "^2.25.1",
+    "@sanity/base": "^2.25.4",
     "@sanity/core": "^2.25.0",
-    "@sanity/dashboard": "^2.25.1",
-    "@sanity/default-layout": "^2.25.1",
+    "@sanity/dashboard": "^2.25.4",
+    "@sanity/default-layout": "^2.25.4",
     "@sanity/default-login": "^2.24.1",
-    "@sanity/desk-tool": "^2.25.3",
+    "@sanity/desk-tool": "^2.25.4",
     "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/vision": "^2.25.1",
+    "@sanity/vision": "^2.25.4",
     "eslint": "^8.6.0",
     "prop-types": "^15.7",
     "react": "^17.0",
     "react-dom": "^17.0",
     "react-icons": "^4.3.1",
+    "sanity-plugin-content-calendar": "^1.2.5",
+    "sanity-plugin-dashboard-widget-vercel": "^1.1.1",
     "sanity-plugin-icon-picker": "^2.0.1",
     "sanity-plugin-media": "^1.4.4",
     "styled-components": "^5.2.0"
