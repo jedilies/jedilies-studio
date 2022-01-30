@@ -16,7 +16,8 @@
     "@sanity/desk-tool",
     "media",
     "icon-picker",
-    "content-calendar"
+    "content-calendar",
+    "@sanity/color-input"
   ],
   "env": {
     "development": {

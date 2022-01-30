@@ -12,6 +12,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'tagColor',
+      title: 'Tag Color',
+      type: 'color'
+    },
+    {
       title: "Icon",
       name: "icon",
       type: "iconPicker",

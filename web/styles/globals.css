@@ -4,27 +4,36 @@
 
 @layer base {
   main {
-    @apply m-12;
+    @apply m-24;
+  }
+  .navbar {
+    @apply my-6 mx-4;
+  }
+  h1, h2, h3, h4 {
+    @apply font-bold;
   }
   h1 {
-    @apply text-7xl;
+    @apply text-4xl lg:text-5xl xl:text-7xl;
   };
   h2 {
-    @apply text-6xl;
+    @apply text-3xl lg:text-4xl xl:text-6xl;
   };
   h3 {
-    @apply text-5xl;
+    @apply text-2xl lg:text-3xl xl:text-5xl;
   };
   h4 {
-    @apply text-4xl;
+    @apply text-xl lg:text-2xl xl:text-4xl;
   };
   ul {
-    @apply list-disc;
+    @apply list-disc list-inside;
   }
   ol {
-    @apply list-decimal;
+    @apply list-decimal list-inside;
   }
   a {
     @apply text-orange-600 hover:italic;
+  }
+  sub {
+    @apply text-sm italic;
   }
 }

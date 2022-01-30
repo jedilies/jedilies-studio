@@ -4,10 +4,10 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <Link href='/'>
-        <a className="font-bold mx-4">Home</a>
+        <a className="font-bold mx-4 hover:text-orange-400">Home</a>
       </Link>
       <Link href='/test'>
-        <a className="font-bold mx-4">Test</a>
+        <a className="font-bold mx-4 hover:text-orange-400">Test</a>
       </Link>
     </nav>
   );
