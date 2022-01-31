@@ -2,6 +2,8 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 
+import hello from '@/api/hello'
+
 const Home: NextPage = () => {
   return (
     <main>
