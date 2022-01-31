@@ -1,12 +1,8 @@
-import Head from "next/head";
 import Navbar from "./Navbar";
 
-function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Head>
-        <title>JediLies</title>
-      </Head>
       <Navbar/>
 
       <main>
@@ -16,5 +12,3 @@ function Layout({ children }: { children: React.ReactNode }) {
     </>
   );
 }
-
-export default Layout;

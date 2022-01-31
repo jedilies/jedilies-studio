@@ -1,39 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import './reset.css';
+@import './theme.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-@layer base {
-  main {
-    @apply m-24;
-  }
-  .navbar {
-    @apply my-6 mx-4;
-  }
-  h1, h2, h3, h4 {
-    @apply font-bold;
-  }
-  h1 {
-    @apply text-4xl lg:text-5xl xl:text-7xl;
-  };
-  h2 {
-    @apply text-3xl lg:text-4xl xl:text-6xl;
-  };
-  h3 {
-    @apply text-2xl lg:text-3xl xl:text-5xl;
-  };
-  h4 {
-    @apply text-xl lg:text-2xl xl:text-4xl;
-  };
-  ul {
-    @apply list-disc list-inside;
-  }
-  ol {
-    @apply list-decimal list-inside;
-  }
-  a {
-    @apply text-orange-600 hover:italic;
-  }
-  sub {
-    @apply text-sm italic;
-  }
+html, body {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  transition: background 0.25s ease-in-out;
+}
+
+h1 {
+  color: var(--color-text-secondary);
 }
