@@ -6,8 +6,8 @@ export default function Navbar() {
       <Link href='/'>
         <a className="font-bold mx-4 hover:text-orange-400">Home</a>
       </Link>
-      <Link href='/test'>
-        <a className="font-bold mx-4 hover:text-orange-400">Test</a>
+      <Link href='/test-type'>
+        <a className="font-bold mx-4 hover:text-orange-400">Test-type</a>
       </Link>
     </nav>
   );
