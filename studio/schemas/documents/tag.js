@@ -8,21 +8,18 @@ export default {
   fields: [
     {
       name: 'title',
-      title: 'Title',
+      title: 'Tag Title',
       type: 'string',
+      validation: Rule => Rule.required().min(3).max(24)
     },
-    {
-      name: 'tagColor',
-      title: 'Tag Color',
-      type: 'color'
-    },
-    {
-      title: "Icon",
-      name: "icon",
-      type: "iconPicker",
-      options: {
-        providers: ["f7", "fa", "mdi", "sa", "hi", "fi"]
-      }
-    },
+    // {
+    //   title: "Icon",
+    //   name: "icon",
+    //   type: "iconPicker",
+    //   options: {
+    //     // providers: ["f7", "fa", "mdi", "sa", "hi", "fi"]
+    //     providers: ["f7"]
+    //   }
+    // },
   ]
 }

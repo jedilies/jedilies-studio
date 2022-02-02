@@ -14,7 +14,7 @@ export default {
     {
       name: 'description',
       title: 'Description',
-      type: 'ptextLite',
+      type: 'text',
     }
   ]
 }

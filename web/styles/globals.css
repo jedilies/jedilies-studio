@@ -11,6 +11,10 @@ body {
   transition: background 0.25s ease-in-out;
 }
 
+main {
+  margin: 5%;
+}
+
 h1 {
   color: var(--color-text-secondary);
 }

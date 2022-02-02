@@ -12,7 +12,6 @@ export default {
       type: 'string',
     },
     {
-      // TODO: import slugify fn -- do I want this to be legible?
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -27,22 +26,24 @@ export default {
       type: 'datetime'
     },
     {
-      name: 'category',
+      name: 'articleCategory',
       title: 'Category',
       type: 'reference',
       to: {type: 'category'}
     },
     {
-      name: 'tag',
+      name: 'articleTagArray',
       title: 'Tags',
-      type: 'reference',
-      to: {type: 'tag'}
+      type: 'array',
+      of: [{
+        type: 'reference',
+        to: [{type:'tag'}]
+      }]
     },
     {
       name: 'body',
       title: 'Body',
       type: 'ptext'
     }
-  ],
-  // TODO: add preview
+  ]
 }
