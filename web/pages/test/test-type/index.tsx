@@ -6,7 +6,7 @@ import hello from '@/api/hello'
 
 const Home: NextPage = () => {
   return (
-    <main>
+    <div>
       <h1>H1ello World 🔥</h1>
       <h2>H2ello World 🔥</h2>
       <h3>H3ello World 🔥</h3>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <li>ul item</li>
         <li>ul item</li>
       </ul>
-    </main>
+    </div>
   )
 }
 

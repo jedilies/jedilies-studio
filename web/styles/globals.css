@@ -12,9 +12,9 @@ body {
 }
 
 main {
-  margin: 5%;
+  margin: 12%;
 }
 
 h1 {
-  color: var(--color-text-secondary);
+  color: red;
 }

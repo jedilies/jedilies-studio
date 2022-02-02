@@ -14,6 +14,11 @@ export default function Navbar() {
             <a>Test-type</a>
           </Link>
         </li>
+        <li>
+          <Link href='/test/test-sanity'>
+            <a>Test-Sanity</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   );
