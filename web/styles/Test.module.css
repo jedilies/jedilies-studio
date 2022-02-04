@@ -1,0 +1,13 @@
+.list {
+  overflow: hidden;
+  max-width: 800px;
+}
+
+.listItem {
+  padding: 2rem;
+  border: 2px solid red;
+  border-radius: 1rem;
+}
+.listItem:hover {
+  border-color: darkmagenta;
+}

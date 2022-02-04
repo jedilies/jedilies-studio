@@ -19,6 +19,7 @@
     "paths": {
       "@/components/*": ["components/*"],
       "@/libs/*": ["libs/*"],
+      "@/styles/*": ["styles/*"],
       "@/api/*": ["pages/api/*"]
     }
   },

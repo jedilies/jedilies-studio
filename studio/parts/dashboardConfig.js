@@ -21,11 +21,5 @@ export default {
         height: 'small'
       }
     },
-    {
-      name: 'vercel',
-      layout: {
-        width: 'medium', // full width is recommended!
-      },
-    },
   ]
 }

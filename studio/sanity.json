@@ -9,15 +9,11 @@
   },
   "plugins": [
     "@sanity/dashboard",
-    "dashboard-widget-vercel",
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "media",
-    "icon-picker",
-    "content-calendar",
-    "@sanity/color-input"
+    "media"
   ],
   "env": {
     "development": {

@@ -10,16 +10,7 @@ export default {
       name: 'title',
       title: 'Tag Title',
       type: 'string',
-      validation: Rule => Rule.required().min(3).max(24)
+      validation: Rule => Rule.required().min(3).max(24).warning('Title length: 3-24 characters')
     },
-    // {
-    //   title: "Icon",
-    //   name: "icon",
-    //   type: "iconPicker",
-    //   options: {
-    //     // providers: ["f7", "fa", "mdi", "sa", "hi", "fi"]
-    //     providers: ["f7"]
-    //   }
-    // },
   ]
 }

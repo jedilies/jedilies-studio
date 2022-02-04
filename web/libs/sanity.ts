@@ -14,7 +14,6 @@ const config = {
 export const imageBuilder = source => createImageUrlBuilder(config).image(source)
 export const usePreviewSubscription = createPreviewSubscriptionHook(config)
 export const client = createClient(config)
-// TODO: setup preview & API token
 export const previewClient = createClient({
   ...config,
   useCdn: false,
