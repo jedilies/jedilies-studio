@@ -6,24 +6,24 @@
   "main": "package.json",
   "author": "Julia Silver <julesrsilver@gmail.com>",
   "license": "UNLICENSED",
-  "scripts": {
-    "start": "sanity start",
-    "build": "sanity build public -y"
-  },
   "keywords": [
     "sanity",
     "blog",
     "webdev"
   ],
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build public -y"
+  },
   "dependencies": {
-    "@sanity/base": "^2.26.0",
-    "@sanity/core": "^2.26.0",
-    "@sanity/dashboard": "^2.26.0",
-    "@sanity/default-layout": "^2.26.0",
-    "@sanity/default-login": "^2.26.0",
-    "@sanity/desk-tool": "^2.26.0",
+    "@sanity/base": "^2.27.0",
+    "@sanity/core": "^2.27.0",
+    "@sanity/dashboard": "^2.27.0",
+    "@sanity/default-layout": "^2.27.0",
+    "@sanity/default-login": "^2.27.0",
+    "@sanity/desk-tool": "^2.27.0",
     "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/vision": "^2.26.0",
+    "@sanity/vision": "^2.27.0",
     "eslint": "^8.6.0",
     "prop-types": "^15.7",
     "react": "^17.0",
@@ -33,6 +33,6 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "@sanity/cli": "^2.26.0"
+    "@sanity/cli": "^2.27.0"
   }
 }

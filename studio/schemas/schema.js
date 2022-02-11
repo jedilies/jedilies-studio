@@ -11,7 +11,6 @@ import article from './documents/article'
 import category from './documents/category'
 import tag from './documents/tag'
 
-
 // builder
 export default createSchema({
   // schema name
@@ -27,6 +26,5 @@ export default createSchema({
     /* OBJECTS ---------------------------------------------- */
     ptext,
     ptextLite,
-
   ]),
 })

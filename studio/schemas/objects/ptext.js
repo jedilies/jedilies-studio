@@ -7,6 +7,9 @@ export default {
     {
       title: 'Block',
       type: 'block',
+      options: {
+        spellCheck: true
+      },
       styles: [
         {title: 'Normal', value: 'normal'},
         {title: 'H1', value: 'h1'},
