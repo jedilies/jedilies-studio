@@ -1,10 +1,10 @@
-import { GiLinkedRings } from 'react-icons/gi'
+
 
 export default {
   name: 'tag',
   title: 'Tag',
   type: 'document',
-  icon: GiLinkedRings,
+  // icon: GiLinkedRings,
   fields: [
     {
       name: 'title',

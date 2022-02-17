@@ -1,10 +1,9 @@
-import { GiBeech } from "react-icons/gi"
 
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
-  icon: GiBeech,
+  // icon: GiBeech,
   fields: [
     {
       name: 'title',
@@ -21,7 +20,7 @@ export default {
       }
     },
     {
-      name: 'articleCategory',
+      name: 'categoryRef',
       title: 'Category',
       type: 'reference',
       to: {type: 'category'}
