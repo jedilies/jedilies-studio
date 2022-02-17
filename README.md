@@ -1,13 +1,15 @@
-# Julia's Master Sanity Studio
+# Jedilies Sanity Studio
+> *personal learning, testing, and content*
 
-deployed: https://jedilies.vercel.app/  
+deployed studio: https://jedilies.vercel.app/  
 deploy settings: https://vercel.com/julesjazz/jedilies  
-repo: https://github.com/julesjazz/jedilies  
+repository     : https://github.com/julesjazz/jedilies  
+sanity manager : https://www.sanity.io/manage/personal/project/hz6n859k
 
 ## Modules
 nice stuff to try and use
 
-### plugins
+### plugin links
 - [code input](https://www.sanity.io/plugins/code-input)
 - [media browser](https://www.sanity.io/plugins/sanity-plugin-media)
 - [super-pane](https://www.sanity.io/plugins/super-pane)

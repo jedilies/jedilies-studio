@@ -8,12 +8,12 @@
     "dataset": "production"
   },
   "plugins": [
-    "@sanity/dashboard",
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "media"
+    "media",
+    "@sanity/vision"
   ],
   "env": {
     "development": {
@@ -26,10 +26,6 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
-    },
-    {
-      "implements": "part:@sanity/dashboard/config",
-      "path": "./parts/dashboardConfig.js"
     },
     {
       "implements": "part:@sanity/form-builder/input/image/asset-sources",
