@@ -1,5 +1,9 @@
 # Julia's Master Sanity Studio
 
+deployed: https://jedilies.vercel.app/  
+deploy settings: https://vercel.com/julesjazz/jedilies  
+repo: https://github.com/julesjazz/jedilies  
+
 ## Modules
 nice stuff to try and use
 
