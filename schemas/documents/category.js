@@ -1,9 +1,11 @@
+import React from "react"
+import Icon from "../../components/emojiIcon"
 
 export default {
   name: 'category',
   title: 'Category',
   type: 'document',
-  // icon: GiMagicPalm,
+  icon: () => <Icon emoji="🔖" />,
   fields: [
     {
       name: 'title',

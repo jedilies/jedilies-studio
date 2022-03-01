@@ -1,9 +1,11 @@
+import React from 'react'
+import Icon from '../../components/emojiIcon'
 
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
-  // icon: GiBeech,
+  icon: () => <Icon emoji="📝" />,
   fields: [
     {
       name: 'title',
