@@ -10,6 +10,7 @@ import ptextLite from './objects/ptextLite'
 import article from './documents/article'
 import category from './documents/category'
 import tag from './documents/tag'
+import testdoc from './documents/testdoc'
 
 // builder
 export default createSchema({
@@ -22,6 +23,7 @@ export default createSchema({
     article,
     category,
     tag,
+    testdoc,
 
     /* OBJECTS ---------------------------------------------- */
     ptext,
