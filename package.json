@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build public -y"
+    "build": "sanity build --output public -y"
   },
   "dependencies": {
     "@sanity/base": "^2.27.2",
