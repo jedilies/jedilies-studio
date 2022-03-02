@@ -6,6 +6,17 @@ export default {
   title: 'Category',
   type: 'document',
   icon: () => <Icon emoji="🔖" />,
+  preview: {
+    select: {
+      title: 'title',
+    },
+    prepare({title}) {
+      return {
+        title: title,
+        media: <Icon emoji="🔖"/>
+      }
+    }
+  },
   fields: [
     {
       name: 'title',

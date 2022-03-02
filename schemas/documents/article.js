@@ -6,6 +6,21 @@ export default {
   title: 'Article',
   type: 'document',
   icon: () => <Icon emoji="📝" />,
+  preview: {
+    select: {
+      title: 'title',
+      slug: 'slug',
+      summary: 'summary',
+      media: 'image'
+    },
+    prepare({title, summary, media}) {
+      return {
+        title: title,
+        subtitle: `${summary || ''}`,
+        media: media || <Icon emoji="📝" />
+      }
+    }
+  },
   fields: [
     {
       name: 'title',
@@ -19,6 +34,19 @@ export default {
       options: {
         source: 'title',
         maxLength: 96
+      }
+    },
+    {
+      name: 'summary',
+      title: 'Summary',
+      type: 'string',
+    },
+    {
+      name: 'image',
+      type: 'image',
+      title: 'Image',
+      options: {
+        hotspot: true
       }
     },
     {
