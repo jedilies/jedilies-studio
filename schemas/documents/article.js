@@ -28,6 +28,12 @@ export default {
       type: 'string',
     },
     {
+      name: 'date',
+      title: 'Date',
+      type: 'datetime',
+      initialValue: (new Date()).toISOString()
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -50,7 +56,7 @@ export default {
       }
     },
     {
-      name: 'categoryRef',
+      name: 'category',
       title: 'Category',
       type: 'reference',
       to: {type: 'category'}
@@ -69,5 +75,5 @@ export default {
       title: 'Body',
       type: 'ptext'
     }
-  ]
+  ],
 }

@@ -2,10 +2,23 @@ import React from 'react'
 import Icon from '../../components/emojiIcon'
 
 export default {
-  name: 'testdoc',
-  title: 'Test Doc',
+  name: 'quickPost',
+  title: 'Quick Post',
   type: 'document',
-  icon: () => <Icon emoji="🧪" />,
+  icon: () => <Icon emoji="🧧" />,
+  preview: {
+    select: {
+      title: 'title',
+      slug: 'slug',
+      media: 'image'
+    },
+    prepare({title}) {
+      return {
+        title: title,
+        icon: <Icon emoji="🧧" />
+      }
+    }
+  },
   fields: [
     {
       name: 'title',
@@ -22,13 +35,19 @@ export default {
       }
     },
     {
+      name: 'date',
+      title: 'Date',
+      type: 'datetime',
+      initialValue: (new Date()).toISOString()
+    },
+    {
       name: 'category',
       title: 'Category',
       type: 'reference',
       to: {type: 'category'}
     },
     {
-      name: 'tags',
+      name: 'articleTagArray',
       title: 'Tags',
       type: 'array',
       of: [{
@@ -38,13 +57,8 @@ export default {
     },
     {
       name: 'body',
-      title: 'Body: PortableText',
-      type: 'ptext'
-    },
-    {
-      name: 'bodyLite',
-      title: 'Body: Light PText',
-      type: 'ptextLite'
-    },
+      title: 'Body',
+      type: 'text'
+    }
   ]
 }

@@ -16,14 +16,14 @@
     "build": "sanity build --output public -y"
   },
   "dependencies": {
-    "@sanity/base": "cookieless-auth",
-    "@sanity/core": "cookieless-auth",
-    "@sanity/default-layout": "cookieless-auth",
-    "@sanity/default-login": "cookieless-auth",
-    "@sanity/desk-tool": "cookieless-auth",
+    "@sanity/base": "^2.27.3-cookieless-auth.34",
+    "@sanity/core": "^2.27.3-cookieless-auth.34",
+    "@sanity/default-layout": "^2.27.3-cookieless-auth.34",
+    "@sanity/default-login": "^2.27.3-cookieless-auth.34",
+    "@sanity/desk-tool": "^2.27.3-cookieless-auth.34",
     "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/types": "cookieless-auth",
-    "@sanity/vision": "cookieless-auth",
+    "@sanity/types": "^2.27.3-cookieless-auth.34",
+    "@sanity/vision": "^2.27.3-cookieless-auth.34",
     "eslint": "^8.6.0",
     "prop-types": "^15.7",
     "react": "^17.0",
@@ -31,6 +31,6 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "@sanity/cli": "^2.27.0"
+    "@sanity/cli": "^2.27.3"
   }
 }
