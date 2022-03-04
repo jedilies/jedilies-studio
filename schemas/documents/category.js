@@ -5,7 +5,8 @@ export default {
   name: 'category',
   title: 'Category',
   type: 'document',
-  icon: () => <Icon emoji="🔖" />,
+  liveEdit: true,
+  icon: () => <Icon emoji="⫻" />,
   preview: {
     select: {
       title: 'title',
@@ -13,7 +14,7 @@ export default {
     prepare({title}) {
       return {
         title: title,
-        media: <Icon emoji="🔖"/>
+        media: <Icon emoji="⫻"/>
       }
     }
   },

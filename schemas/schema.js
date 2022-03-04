@@ -7,9 +7,10 @@ import ptext from './objects/ptext'
 
 /* DOCUMENTS ---------------------------------------------- */
 import article from './documents/article'
-import quickPost from './documents/quickPost'
+import bookmark from './documents/bookmark'
 import category from './documents/category'
 import tag from './documents/tag'
+import task from './documents/task'
 
 // builder
 export default createSchema({
@@ -20,9 +21,10 @@ export default createSchema({
 
     /* DOCUMENTS ---------------------------------------------- */
     article,
-    quickPost,
+    bookmark,
     category,
     tag,
+    task,
 
     /* OBJECTS ---------------------------------------------- */
     ptext,

@@ -5,6 +5,7 @@ export default {
   name: 'article',
   title: 'Article',
   type: 'document',
+  liveEdit: true,
   icon: () => <Icon emoji="📝" />,
   preview: {
     select: {
@@ -21,59 +22,40 @@ export default {
       }
     }
   },
+  groups: [
+    {name:'properties', title: 'Properties', default: true },
+    {name:'media', title: 'Media' },
+    {name:'content', title: 'Content' },
+  ],
   fields: [
     {
-      name: 'title',
-      title: 'Title',
-      type: 'string',
+      name: 'title', title: 'Title', type: 'string', group: 'properties',
     },
     {
-      name: 'date',
-      title: 'Date',
-      type: 'datetime',
+      name: 'date', title: 'Date', type: 'datetime', group: 'properties',
       initialValue: (new Date()).toISOString()
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      options: {
-        source: 'title',
-        maxLength: 96
-      }
+      name: 'slug', title: 'Slug', type: 'slug', group: 'properties',
+      options: { source: 'title', maxLength: 96 }
     },
     {
-      name: 'summary',
-      title: 'Summary',
-      type: 'string',
+      name: 'summary', title: 'Summary', type: 'string', group: 'content',
     },
     {
-      name: 'image',
-      type: 'image',
-      title: 'Image',
-      options: {
-        hotspot: true
-      }
+      name: 'image', type: 'image', title: 'Image', group: 'media',
+      options: { hotspot: true }
     },
     {
-      name: 'category',
-      title: 'Category',
-      type: 'reference',
+      name: 'category', title: 'Category', type: 'reference', group: 'properties',
       to: {type: 'category'}
     },
     {
-      name: 'articleTagArray',
-      title: 'Tags',
-      type: 'array',
-      of: [{
-        type: 'reference',
-        to: [{type:'tag'}]
-      }]
+      name: 'tags', title: 'Tags', type: 'array', group: 'properties',
+      of: [{ type: 'reference', to: [{type:'tag'}] }]
     },
     {
-      name: 'body',
-      title: 'Body',
-      type: 'ptext'
+      name: 'body', title: 'Body', type: 'ptext', group: 'content',
     }
   ],
 }
