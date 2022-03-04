@@ -35,15 +35,10 @@ export default {
       name: 'date', title: 'Date', type: 'datetime',
       initialValue: (new Date()).toISOString()
     },
-    {
-      name: 'summary',
-      title: 'Summary',
-      type: 'string',
+    { name: 'summary', title: 'Summary', type: 'string',
     },
     {
-      name: 'body',
-      title: 'Body',
-      type: 'ptext'
+      name: 'body', title: 'Body', type: 'ptext'
     }
   ],
 }

@@ -7,7 +7,6 @@ export default {
   type: 'document',
   liveEdit: true,
   icon: () => <Icon emoji="🔖" />,
-  // preview: tbd
   fields: [
     {
       name: 'href',
@@ -24,13 +23,11 @@ export default {
       name: 'favicon',
       title: 'Favicon',
       type: 'string',
-
     },
     {
       name: 'description',
       title: 'Description',
       type: 'text',
-
     },
   ]
 }
