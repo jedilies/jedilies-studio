@@ -11,8 +11,12 @@ import bookmark from './documents/bookmark'
 import category from './documents/category'
 import tag from './documents/tag'
 import task from './documents/task'
+import aritcleMd from './documents/aritcleMd'
 
-// builder
+/* MEDIA ---------------------------------------------- */
+import favicon from './media/favicon'
+
+/* BUILDER ---------------------------------------------- */
 export default createSchema({
   // schema name
   name: 'default',
@@ -21,10 +25,12 @@ export default createSchema({
 
     /* DOCUMENTS ---------------------------------------------- */
     article,
+    aritcleMd,
     bookmark,
     category,
     tag,
     task,
+    favicon,
 
     /* OBJECTS ---------------------------------------------- */
     ptext,

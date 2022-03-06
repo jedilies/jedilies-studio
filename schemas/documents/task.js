@@ -3,7 +3,7 @@ import Icon from '../../components/emojiIcon'
 
 export default {
   name: 'task',
-  title: 'Tasks',
+  title: 'Task',
   type: 'document',
   liveEdit: true,
   icon: () => <Icon emoji="✔" />,

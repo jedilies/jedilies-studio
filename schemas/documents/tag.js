@@ -10,11 +10,12 @@ export default {
   preview: {
     select: {
       title: 'title',
+      media: 'icon',
     },
-    prepare({title}) {
+    prepare({title, media}) {
       return {
         title: title,
-        media: <Icon emoji="⨾"/>
+        media: <Icon emoji={media} />
       }
     }
   },
@@ -25,5 +26,12 @@ export default {
       type: 'string',
       validation: Rule => Rule.required().min(3).max(24).warning('Title length: 3-24 characters')
     },
+    {
+      name: 'icon',
+      title: 'Icon',
+      type: 'string',
+      valdiation: Rule => Rule.max(1).warning('Single character or emoji as an icon.'),
+      initialValue: '🪆'
+    }
   ]
 }
