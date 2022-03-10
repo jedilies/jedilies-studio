@@ -27,6 +27,11 @@ nice stuff to try and use
 - [color picker](https://www.sanity.io/plugins/sanity-plugin-color-picker)
 - [mines dash widget](https://www.sanity.io/plugins/sanity-plugin-minesweeper)
 
+### External Plugins
+- [Bedrock (styled already inc)](https://www.bedrock-layout.dev/)
+
+
+
 ---
 ## Refs
 - [importing data](https://www.sanity.io/docs/importing-data)

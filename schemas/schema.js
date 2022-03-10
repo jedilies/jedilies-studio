@@ -12,6 +12,9 @@ import category from './documents/category'
 import tag from './documents/tag'
 import task from './documents/task'
 import aritcleMd from './documents/aritcleMd'
+/* TEST ---------------------------------------------- */
+import address from './test/address'
+import socials from './test/socials'
 
 /* MEDIA ---------------------------------------------- */
 import favicon from './media/favicon'
@@ -31,6 +34,8 @@ export default createSchema({
     tag,
     task,
     favicon,
+    socials,
+    address,
 
     /* OBJECTS ---------------------------------------------- */
     ptext,
