@@ -15,9 +15,12 @@ import aritcleMd from './documents/aritcleMd'
 /* TEST ---------------------------------------------- */
 import address from './test/address'
 import socials from './test/socials'
+import performance from './test/gflPerformance'
+import show from './test/gflShow'
+import ticket from './test/gflTicket'
 
 /* MEDIA ---------------------------------------------- */
-import favicon from './media/favicon'
+import favicon from './test/favicon'
 
 /* BUILDER ---------------------------------------------- */
 export default createSchema({
@@ -36,6 +39,9 @@ export default createSchema({
     favicon,
     socials,
     address,
+    show,
+    performance,
+    ticket,
 
     /* OBJECTS ---------------------------------------------- */
     ptext,
