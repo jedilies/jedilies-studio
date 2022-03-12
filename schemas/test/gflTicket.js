@@ -17,11 +17,12 @@ export default {
       checkedIn: 'checkedIn',
       numberOfTickets: 'numberOfTickets',
       noted: 'notes',
+      email: 'email'
     },
-    prepare({title, checkedIn, numberOfTickets, noted}) {
+    prepare({title, checkedIn, numberOfTickets, email, noted}) {
       return {
         title: `${noted ? '🚸 ' + title : title}`,
-        subtitle: `#tickets: ${numberOfTickets}`,
+        subtitle: `${numberOfTickets} 🎟 ${'@:',email || ''}`,
         media: () => {
           if (checkedIn === true) return <Icon emoji="✅"/>
           else return <Icon emoji="🎟"/>

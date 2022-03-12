@@ -13,8 +13,6 @@ import tag from './documents/tag'
 import task from './documents/task'
 import aritcleMd from './documents/aritcleMd'
 /* TEST ---------------------------------------------- */
-import address from './test/address'
-import socials from './test/socials'
 import performance from './test/gflPerformance'
 import show from './test/gflShow'
 import ticket from './test/gflTicket'
@@ -37,8 +35,6 @@ export default createSchema({
     tag,
     task,
     favicon,
-    socials,
-    address,
     show,
     performance,
     ticket,
