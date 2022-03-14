@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon from '../../components/emojiIcon'
-import UrlStringInput from '../../components/UrlStringInput'
+import UrlStringInput from '../../components/inputs/UrlStringInput'
 
 export default {
   name: 'social',

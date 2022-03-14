@@ -11,14 +11,14 @@ import bookmark from './documents/bookmark'
 import category from './documents/category'
 import tag from './documents/tag'
 import task from './documents/task'
-import aritcleMd from './documents/aritcleMd'
+
 /* TEST ---------------------------------------------- */
-import performance from './test/gflPerformance'
-import show from './test/gflShow'
-import ticket from './test/gflTicket'
+// import performance from './test/gflPerformance'
+// import show from './test/gflShow'
+// import ticket from './test/gflTicket'
 
 /* MEDIA ---------------------------------------------- */
-import favicon from './test/favicon'
+
 
 /* BUILDER ---------------------------------------------- */
 export default createSchema({
@@ -29,15 +29,13 @@ export default createSchema({
 
     /* DOCUMENTS ---------------------------------------------- */
     article,
-    aritcleMd,
     bookmark,
     category,
     tag,
     task,
-    favicon,
-    show,
-    performance,
-    ticket,
+    // show,
+    // performance,
+    // ticket,
 
     /* OBJECTS ---------------------------------------------- */
     ptext,

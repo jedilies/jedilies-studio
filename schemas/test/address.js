@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon from '../../components/emojiIcon'
-import addressInput from '../../components/addressInput'
+import AddressInput from '../../components/inputs/AddressInput'
 
 
 export default {
@@ -19,7 +19,7 @@ export default {
       name: "street",
       title: "Street",
       type: "string",
-      inputComponent: addressInput,
+      inputComponent: AddressInput,
     },
   ]
 }
