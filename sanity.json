@@ -13,7 +13,8 @@
     "@sanity/default-login",
     "@sanity/desk-tool",
     "@sanity/vision",
-    "markdown"
+    "markdown",
+    "media-library"
   ],
   "env": {
     "development": {
