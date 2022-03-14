@@ -6,7 +6,7 @@ export default {
   title: 'Bookmark',
   type: 'document',
   liveEdit: true,
-  icon: () => <Icon emoji="🔖" />,
+  icon: () => <Icon emoji="⭐️" />,
   fields: [
     {
       name: 'href',
@@ -20,9 +20,12 @@ export default {
       type: 'string',
     },
     {
-      name: 'favicon',
-      title: 'Favicon',
-      type: 'string',
+      name: 'category', title: 'Category', type: 'reference',
+      to: {type: 'category'}
+    },
+    {
+      name: 'tags', title: 'Tags', type: 'array',
+      of: [{ type: 'reference', to: [{type:'tag'}] }]
     },
     {
       name: 'description',
