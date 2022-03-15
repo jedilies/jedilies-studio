@@ -7,7 +7,27 @@ export default {
   type: 'document',
   liveEdit: true,
   icon: () => <Icon emoji="⭐️" />,
+  preview: {
+    select: {
+      title: 'title',
+      slug: 'slug',
+      href: 'href',
+      media: 'image'
+    },
+    prepare({title, href, media}) {
+      return {
+        title: title,
+        subtitle: `${href || ''}`,
+        media: media || <Icon emoji="🔴" />
+      }
+    }
+  },
   fields: [
+    {
+      name: 'title',
+      title: 'Title',
+      type: 'string',
+    },
     {
       name: 'href',
       title: 'URL',
@@ -15,9 +35,8 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      name: 'title',
-      title: 'Title',
-      type: 'string',
+      name: 'favicon', type: 'image', title: 'Favicon',
+      options: { hotspot: true }
     },
     {
       name: 'category', title: 'Category', type: 'reference',
