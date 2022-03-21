@@ -30,8 +30,21 @@ export default {
       name: 'icon',
       title: 'Icon',
       type: 'string',
+      description: 'Optional emoji or text',
       valdiation: Rule => Rule.max(1).warning('Single character or emoji as an icon.'),
       initialValue: '🪆'
+    },
+    {
+      name: 'testarray',
+      title: 'Test',
+      type: 'array',
+      of: [
+        {
+          name: 'bid',
+          title: 'Bid',
+          type: 'number'
+        }
+      ]
     }
   ]
 }

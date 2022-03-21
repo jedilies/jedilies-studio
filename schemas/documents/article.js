@@ -29,10 +29,16 @@ export default {
   ],
   fields: [
     {
-      name: 'title', title: 'Title', type: 'string', group: 'properties',
+      name: 'title', 
+      title: 'Title', type: 
+      'string', 
+      group: 'properties',
     },
     {
-      name: 'date', title: 'Date', type: 'datetime', group: 'properties',
+      name: 'date', 
+      title: 'Date', 
+      type: 'datetime', 
+      group: 'properties',
       initialValue: (new Date()).toISOString()
     },
     {

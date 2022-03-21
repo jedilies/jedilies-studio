@@ -13,9 +13,7 @@ import tag from './documents/tag'
 import task from './documents/task'
 
 /* TEST ---------------------------------------------- */
-// import performance from './test/gflPerformance'
-// import show from './test/gflShow'
-// import ticket from './test/gflTicket'
+
 
 /* MEDIA ---------------------------------------------- */
 
@@ -33,9 +31,6 @@ export default createSchema({
     category,
     tag,
     task,
-    // show,
-    // performance,
-    // ticket,
 
     /* OBJECTS ---------------------------------------------- */
     ptext,
