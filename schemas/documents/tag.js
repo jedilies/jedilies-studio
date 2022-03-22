@@ -1,6 +1,8 @@
 import React from "react"
 import Icon from "../../components/emojiIcon"
 
+
+
 export default {
   name: 'tag',
   title: 'Tag',
@@ -34,17 +36,6 @@ export default {
       valdiation: Rule => Rule.max(1).warning('Single character or emoji as an icon.'),
       initialValue: '🪆'
     },
-    {
-      name: 'testarray',
-      title: 'Test',
-      type: 'array',
-      of: [
-        {
-          name: 'bid',
-          title: 'Bid',
-          type: 'number'
-        }
-      ]
-    }
+
   ]
 }
