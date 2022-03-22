@@ -1,39 +1,36 @@
 {
   "name": "jedilies",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.0",
-  "description": "Sanity Studio for personal projects & testing",
-  "main": "package.json",
-  "author": "Julia Silver <julesrsilver@gmail.com>",
-  "license": "UNLICENSED",
-  "keywords": [
-    "sanity",
-    "blog",
-    "webdev"
-  ],
   "scripts": {
-    "start": "sanity start",
-    "build": "sanity build --output public -y"
+    "dev": "next dev",
+    "lint": "next lint",
+    "build": "npm run build:sanity && pwd && npm run build:web",
+    "build:sanity": "cd studio && sanity build ../public/studio -y && cd ..",
+    "build:web": "next build",
+    "start": "next start",
+    "start:web": "next start",
+    "start:sanity": "cd studio && sanity start",
+    "postinstall": "lerna bootstrap"
   },
   "dependencies": {
-    "@bedrock-layout/columns": "^2.4.0",
-    "@sanity/base": "^2.29.1",
-    "@sanity/core": "^2.28.1",
-    "@sanity/default-layout": "^2.29.1",
-    "@sanity/default-login": "^2.29.1",
-    "@sanity/desk-tool": "^2.29.1",
-    "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/types": "^2.28.0",
-    "@sanity/vision": "^2.29.1",
-    "eslint": "^8.6.0",
-    "prop-types": "^15.7",
-    "react": "^17.0",
-    "react-dom": "^17.0",
-    "sanity-plugin-markdown": "^2.1.1",
-    "sanity-plugin-media-library": "^2.0.2",
-    "styled-components": "^5.2.0"
+    "@portabletext/react": "^1.0.1",
+    "@sanity/client": "^2.23.2",
+    "@sanity/image-url": "^1.0.1",
+    "daisyui": "^2.11.0",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@sanity/cli": "^2.28.0"
+    "@types/node": "17.0.21",
+    "@types/react": "17.0.41",
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "lerna": "^4.0.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "typescript": "4.6.2"
   }
 }
