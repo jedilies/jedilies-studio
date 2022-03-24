@@ -35,7 +35,9 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      name: 'favicon', type: 'image', title: 'Favicon',
+      name: 'favicon',
+      type: 'image',
+      title: 'Favicon',
       options: { hotspot: true }
     },
     {
