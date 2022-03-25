@@ -1,0 +1,1468 @@
+[{
+  "children": [{
+    "children": [{
+      "dateAdded": 1641864907756,
+      "id": "321",
+      "index": 0,
+      "parentId": "1",
+      "title": "",
+      "url": "https://mail.protonmail.com/u/0/inbox"
+    }, {
+      "dateAdded": 1641864924302,
+      "id": "322",
+      "index": 1,
+      "parentId": "1",
+      "title": "",
+      "url": "https://mail.google.com/mail/u/0/#inbox"
+    }, {
+      "dateAdded": 1642438701994,
+      "id": "339",
+      "index": 2,
+      "parentId": "1",
+      "title": "",
+      "url": "https://www.notion.so/julesjazz/df642ee0556b4baaaaca40de681dd9ee?v=6959535383de425d896ba43b0c4167eb"
+    }, {
+      "dateAdded": 1644009667520,
+      "id": "407",
+      "index": 3,
+      "parentId": "1",
+      "title": "",
+      "url": "https://www.notion.so/julesjazz/7b6814acc1484d00b2aeed7b1c705799?v=c54bb99844304d21bbb6e88305f5b092"
+    }, {
+      "dateAdded": 1644802113190,
+      "id": "411",
+      "index": 4,
+      "parentId": "1",
+      "title": "",
+      "url": "https://app.daily.dev/"
+    }, {
+      "dateAdded": 1646153447894,
+      "id": "443",
+      "index": 5,
+      "parentId": "1",
+      "title": "",
+      "url": "https://developer.mozilla.org/en-US/"
+    }, {
+      "dateAdded": 1646686374365,
+      "id": "462",
+      "index": 6,
+      "parentId": "1",
+      "title": "jedilies",
+      "url": "https://jedilies.vercel.app/desk"
+    }, {
+      "dateAdded": 1641871231639,
+      "id": "325",
+      "index": 7,
+      "parentId": "1",
+      "title": "",
+      "url": "https://separator.mayastudios.com/"
+    }, {
+      "dateAdded": 1636143249000,
+      "id": "174",
+      "index": 8,
+      "parentId": "1",
+      "title": "j",
+      "url": "https://github.com/julesjazz?tab=repositories"
+    }, {
+      "dateAdded": 1646373608552,
+      "id": "453",
+      "index": 9,
+      "parentId": "1",
+      "title": "🥔",
+      "url": "https://github.com/sanity-io"
+    }, {
+      "dateAdded": 1646441447375,
+      "id": "458",
+      "index": 10,
+      "parentId": "1",
+      "title": "",
+      "url": "https://codesandbox.io/dashboard/home?workspace=de9d9074-a45c-4901-9c74-fc55635960f6"
+    }, {
+      "children": [{
+        "dateAdded": 1641848526845,
+        "id": "317",
+        "index": 0,
+        "parentId": "366",
+        "title": "replit",
+        "url": "https://replit.com/~"
+      }, {
+        "dateAdded": 1641848539843,
+        "id": "318",
+        "index": 1,
+        "parentId": "366",
+        "title": "stackblitz",
+        "url": "https://stackblitz.com/"
+      }, {
+        "dateAdded": 1641848551836,
+        "id": "319",
+        "index": 2,
+        "parentId": "366",
+        "title": "codepen",
+        "url": "https://codepen.io/your-work/"
+      }, {
+        "dateAdded": 1642782560686,
+        "id": "369",
+        "index": 3,
+        "parentId": "366",
+        "title": "gitpod",
+        "url": "https://gitpod.io/"
+      }, {
+        "dateAdded": 1643956312773,
+        "id": "405",
+        "index": 4,
+        "parentId": "366",
+        "title": "vsCode.dev",
+        "url": "https://vscode.dev/"
+      }, {
+        "dateAdded": 1643956339535,
+        "id": "406",
+        "index": 5,
+        "parentId": "366",
+        "title": "Github.dev",
+        "url": "https://github.dev/github/dev"
+      }, {
+        "dateAdded": 1645286323197,
+        "id": "433",
+        "index": 6,
+        "parentId": "366",
+        "title": "Dashboard - CodeSandbox",
+        "url": "https://codesandbox.io/dashboard/home?workspace=de9d9074-a45c-4901-9c74-fc55635960f6"
+      }],
+      "dateAdded": 1642700533389,
+      "dateGroupModified": 1645286323197,
+      "id": "366",
+      "index": 11,
+      "parentId": "1",
+      "title": "👩🏻‍💻"
+    }, {
+      "children": [{
+        "dateAdded": 1642909002096,
+        "id": "392",
+        "index": 0,
+        "parentId": "385",
+        "title": "Studio - julesjazz",
+        "url": "https://julesjazz-sanity.vercel.app/desk"
+      }, {
+        "dateAdded": 1642908734101,
+        "id": "386",
+        "index": 1,
+        "parentId": "385",
+        "title": "Tarot Reading - Netlify",
+        "url": "https://tarot-reading-gdi.netlify.app/"
+      }, {
+        "dateAdded": 1642908807277,
+        "id": "388",
+        "index": 2,
+        "parentId": "385",
+        "title": "jules dotcom - google",
+        "url": "https://juliasilver.com/"
+      }, {
+        "dateAdded": 1642908852565,
+        "id": "389",
+        "index": 3,
+        "parentId": "385",
+        "title": "Web - GatsbyStarter - Netlify",
+        "url": "https://sanity-gatsby-portfolio-web-5heg8cxq.netlify.app/"
+      }, {
+        "dateAdded": 1642908743677,
+        "id": "387",
+        "index": 4,
+        "parentId": "385",
+        "title": "Studio - GatsbyStarter - Netlify",
+        "url": "https://sanity-gatsby-portfolio-studio-1ak8yfmt.netlify.app/dashboard"
+      }, {
+        "dateAdded": 1642909067890,
+        "id": "393",
+        "index": 5,
+        "parentId": "385",
+        "title": "Web - NextjsStarter - Vercel",
+        "url": "https://example-nextjs-starter-vercel.vercel.app/"
+      }, {
+        "dateAdded": 1642908944217,
+        "id": "390",
+        "index": 6,
+        "parentId": "385",
+        "title": "Web - hullStarter - Vercel",
+        "url": "https://example-hull-starter-vercel.vercel.app/"
+      }, {
+        "dateAdded": 1642909201547,
+        "id": "394",
+        "index": 7,
+        "parentId": "385",
+        "title": "Dad or Bad",
+        "url": "https://dad-or-bad.vercel.app/"
+      }, {
+        "dateAdded": 1642909225672,
+        "id": "395",
+        "index": 8,
+        "parentId": "385",
+        "title": "JSJazz",
+        "url": "https://jsuwu.vercel.app/"
+      }, {
+        "dateAdded": 1642909257678,
+        "id": "396",
+        "index": 9,
+        "parentId": "385",
+        "title": "Karate Excalidraw",
+        "url": "https://karate-firedraw.vercel.app/"
+      }],
+      "dateAdded": 1642908671302,
+      "dateGroupModified": 1642909257678,
+      "id": "385",
+      "index": 12,
+      "parentId": "1",
+      "title": "🐱"
+    }, {
+      "children": [{
+        "dateAdded": 1641842623373,
+        "id": "300",
+        "index": 0,
+        "parentId": "301",
+        "title": "Devhints — TL;DR",
+        "url": "https://devhints.io/"
+      }, {
+        "dateAdded": 1641843193620,
+        "id": "302",
+        "index": 1,
+        "parentId": "301",
+        "title": "Bundlephobia",
+        "url": "https://bundlephobia.com/"
+      }, {
+        "dateAdded": 1644800395893,
+        "id": "430",
+        "index": 2,
+        "parentId": "301",
+        "title": "DevDocs API Documentation",
+        "url": "https://devdocs.io/"
+      }],
+      "dateAdded": 1641842645115,
+      "dateGroupModified": 1644800395893,
+      "id": "301",
+      "index": 13,
+      "parentId": "1",
+      "title": "📓"
+    }, {
+      "children": [{
+        "children": [{
+          "dateAdded": 1641865165733,
+          "id": "323",
+          "index": 0,
+          "parentId": "382",
+          "title": "cubic-bezier(.17,.67,.83,.67) ✿ cubic-bezier.com",
+          "url": "https://cubic-bezier.com/#.17,.67,.83,.67"
+        }],
+        "dateAdded": 1642817051366,
+        "dateGroupModified": 1642817080885,
+        "id": "382",
+        "index": 0,
+        "parentId": "257",
+        "title": "Anitmation"
+      }, {
+        "children": [{
+          "dateAdded": 1642312277439,
+          "id": "334",
+          "index": 0,
+          "parentId": "383",
+          "title": "hue.tools",
+          "url": "https://hue.tools/?format=hex"
+        }, {
+          "dateAdded": 1642812181248,
+          "id": "371",
+          "index": 1,
+          "parentId": "383",
+          "title": "Coolors - The super fast color palettes generator!",
+          "url": "https://coolors.co/"
+        }, {
+          "dateAdded": 1642812383281,
+          "id": "378",
+          "index": 2,
+          "parentId": "383",
+          "title": "Duotone by ShapeFactory | Create Beautiful Free Duotones",
+          "url": "https://duotone.shapefactory.co/"
+        }],
+        "dateAdded": 1642817174422,
+        "dateGroupModified": 1642817200849,
+        "id": "383",
+        "index": 1,
+        "parentId": "257",
+        "title": "Color"
+      }, {
+        "children": [{
+          "dateAdded": 1641842601994,
+          "id": "299",
+          "index": 0,
+          "parentId": "316",
+          "title": "Font Flipper - Find Free Fonts",
+          "url": "https://fontflipper.com/upload"
+        }, {
+          "dateAdded": 1637389029000,
+          "id": "267",
+          "index": 1,
+          "parentId": "316",
+          "title": "Fontello",
+          "url": "https://fontello.com/"
+        }, {
+          "dateAdded": 1642812354440,
+          "id": "376",
+          "index": 2,
+          "parentId": "316",
+          "title": "Mixfont | A modern font generator",
+          "url": "https://www.mixfont.com/"
+        }, {
+          "dateAdded": 1642812366946,
+          "id": "377",
+          "index": 3,
+          "parentId": "316",
+          "title": "Fluid-responsive font-size calculator",
+          "url": "https://websemantics.uk/tools/responsive-font-calculator/"
+        }, {
+          "dateAdded": 1646686425476,
+          "id": "467",
+          "index": 4,
+          "parentId": "316",
+          "title": "Home - Use & Modify",
+          "url": "https://usemodify.com/"
+        }],
+        "dateAdded": 1641848278128,
+        "dateGroupModified": 1646686425476,
+        "id": "316",
+        "index": 2,
+        "parentId": "257",
+        "title": "Fonts"
+      }, {
+        "children": [{
+          "dateAdded": 1636932086000,
+          "id": "219",
+          "index": 0,
+          "parentId": "218",
+          "title": "PirateIpsum",
+          "url": "https://pirateipsum.me/#scrollstop"
+        }, {
+          "dateAdded": 1636932127000,
+          "id": "220",
+          "index": 1,
+          "parentId": "218",
+          "title": "Cupcake Ipsum",
+          "url": "http://www.cupcakeipsum.com/"
+        }, {
+          "dateAdded": 1636932149000,
+          "id": "221",
+          "index": 2,
+          "parentId": "218",
+          "title": "Cheese Ipsum",
+          "url": "http://www.cheeseipsum.co.uk/"
+        }, {
+          "dateAdded": 1636932162000,
+          "id": "222",
+          "index": 3,
+          "parentId": "218",
+          "title": "Hipster Ipsum",
+          "url": "https://hipsum.co/"
+        }, {
+          "dateAdded": 1636932197000,
+          "id": "223",
+          "index": 4,
+          "parentId": "218",
+          "title": "Fillerama",
+          "url": "http://fillerama.io/"
+        }, {
+          "dateAdded": 1636932221000,
+          "id": "224",
+          "index": 5,
+          "parentId": "218",
+          "title": "Office Ipsum",
+          "url": "http://officeipsum.com/"
+        }, {
+          "dateAdded": 1636932245000,
+          "id": "225",
+          "index": 6,
+          "parentId": "218",
+          "title": "Sagan Ipsum",
+          "url": "http://saganipsum.com/"
+        }, {
+          "dateAdded": 1636932263000,
+          "id": "226",
+          "index": 7,
+          "parentId": "218",
+          "title": "Zombie Ipsum",
+          "url": "http://www.zombieipsum.com/"
+        }, {
+          "dateAdded": 1636932295000,
+          "id": "227",
+          "index": 8,
+          "parentId": "218",
+          "title": "Legal Ipsum",
+          "url": "http://legalipsum.com/"
+        }, {
+          "dateAdded": 1636932362000,
+          "id": "228",
+          "index": 9,
+          "parentId": "218",
+          "title": "Lit Ipsum",
+          "url": "https://litipsum.com/"
+        }, {
+          "dateAdded": 1636932393000,
+          "id": "229",
+          "index": 10,
+          "parentId": "218",
+          "title": "Meet the Ipsums",
+          "url": "https://meettheipsums.com/"
+        }, {
+          "dateAdded": 1636932417000,
+          "id": "230",
+          "index": 11,
+          "parentId": "218",
+          "title": "Lorem Ipsum",
+          "url": "https://www.lipsum.com/"
+        }, {
+          "dateAdded": 1636932442000,
+          "id": "231",
+          "index": 12,
+          "parentId": "218",
+          "title": "|| Dummy Text Generator",
+          "url": "https://www.blindtextgenerator.com/lorem-ipsum"
+        }, {
+          "dateAdded": 1636932467000,
+          "id": "232",
+          "index": 13,
+          "parentId": "218",
+          "title": "The Godfather Ipsum",
+          "url": "https://godfatheripsum.github.io/"
+        }, {
+          "dateAdded": 1636932504000,
+          "id": "233",
+          "index": 14,
+          "parentId": "218",
+          "title": "Monocle Ipsum",
+          "url": "http://www.monocleipsum.com/"
+        }, {
+          "dateAdded": 1636932566000,
+          "id": "234",
+          "index": 15,
+          "parentId": "218",
+          "title": "Dalaipsum | Dalai Lama",
+          "url": "http://dalaipsum.com/"
+        }, {
+          "dateAdded": 1636932632000,
+          "id": "235",
+          "index": 16,
+          "parentId": "218",
+          "title": "Bacon Ipsum",
+          "url": "https://baconipsum.com/"
+        }, {
+          "dateAdded": 1636932677000,
+          "id": "236",
+          "index": 17,
+          "parentId": "218",
+          "title": "Journo Ipsum",
+          "url": "https://www.niemanlab.org/journo-ipsum/"
+        }, {
+          "dateAdded": 1636932757000,
+          "id": "237",
+          "index": 18,
+          "parentId": "218",
+          "title": "Jeffsum",
+          "url": "https://jeffsum.com/"
+        }],
+        "dateAdded": 1638133652925,
+        "dateGroupModified": 1638133652925,
+        "id": "218",
+        "index": 3,
+        "parentId": "257",
+        "title": "ipsum text"
+      }, {
+        "children": [{
+          "dateAdded": 1636932801000,
+          "id": "263",
+          "index": 0,
+          "parentId": "314",
+          "title": "Logoipsum",
+          "url": "https://logoipsum.com/"
+        }],
+        "dateAdded": 1641848211273,
+        "dateGroupModified": 1641848218252,
+        "id": "314",
+        "index": 4,
+        "parentId": "257",
+        "title": "ipsum gfx"
+      }, {
+        "children": [{
+          "dateAdded": 1642812397264,
+          "id": "379",
+          "index": 0,
+          "parentId": "381",
+          "title": "Brandmark Logo Maker - the most advanced AI logo design tool",
+          "url": "https://brandmark.io/"
+        }, {
+          "dateAdded": 1636913798000,
+          "id": "262",
+          "index": 1,
+          "parentId": "381",
+          "title": "Favicon Gen",
+          "url": "https://realfavicongenerator.net/"
+        }, {
+          "dateAdded": 1642816959963,
+          "id": "380",
+          "index": 2,
+          "parentId": "381",
+          "title": "Logo Crunch - The multi-resolution logo maker",
+          "url": "https://brandmark.io/logo-crunch/"
+        }],
+        "dateAdded": 1642816995159,
+        "dateGroupModified": 1642817203829,
+        "id": "381",
+        "index": 5,
+        "parentId": "257",
+        "title": "Icons & Logos"
+      }, {
+        "children": [{
+          "dateAdded": 1641847717068,
+          "id": "304",
+          "index": 0,
+          "parentId": "313",
+          "title": "CSS Layout Generator",
+          "url": "https://layout.bradwoods.io/customize"
+        }, {
+          "dateAdded": 1640580048220,
+          "id": "291",
+          "index": 1,
+          "parentId": "313",
+          "title": "tailwind-layouts",
+          "url": "https://layoutsfortailwind.lalokalabs.dev/ui/layout-sticky-footer/"
+        }, {
+          "dateAdded": 1641847493061,
+          "id": "303",
+          "index": 2,
+          "parentId": "313",
+          "title": "Grid by Example",
+          "url": "https://gridbyexample.com/"
+        }, {
+          "dateAdded": 1641847794210,
+          "id": "305",
+          "index": 3,
+          "parentId": "313",
+          "title": "Flex Layout Attribute (FLA)",
+          "url": "https://progressivered.com/fla/?d=0&v=1&h=1&s=0&i=000&a=000"
+        }, {
+          "dateAdded": 1641847911368,
+          "id": "306",
+          "index": 4,
+          "parentId": "313",
+          "title": "CSS Grid Generator",
+          "url": "https://cssgrid-generator.netlify.app/"
+        }, {
+          "dateAdded": 1641848032200,
+          "id": "308",
+          "index": 5,
+          "parentId": "313",
+          "title": "Layoutit Grid",
+          "url": "https://grid.layoutit.com/"
+        }, {
+          "dateAdded": 1641848043811,
+          "id": "309",
+          "index": 6,
+          "parentId": "313",
+          "title": "Grid.Guide — Pixel Perfect Grids",
+          "url": "http://grid.guide/"
+        }, {
+          "dateAdded": 1641848056251,
+          "id": "310",
+          "index": 7,
+          "parentId": "313",
+          "title": "CSS Grid Cheat Sheet",
+          "url": "https://alialaa.github.io/css-grid-cheat-sheet/"
+        }, {
+          "dateAdded": 1641847976610,
+          "id": "307",
+          "index": 8,
+          "parentId": "313",
+          "title": "CSS Gridish",
+          "url": "https://ibm.github.io/css-gridish/"
+        }, {
+          "dateAdded": 1641848080980,
+          "id": "311",
+          "index": 9,
+          "parentId": "313",
+          "title": "Griddy",
+          "url": "https://griddy.io/"
+        }, {
+          "dateAdded": 1641848100150,
+          "id": "312",
+          "index": 10,
+          "parentId": "313",
+          "title": "• Grid to Flexbox",
+          "url": "https://shadeed.github.io/grid-to-flex/"
+        }, {
+          "dateAdded": 1636870167000,
+          "id": "260",
+          "index": 11,
+          "parentId": "313",
+          "title": "Shape Divider App",
+          "url": "https://www.shapedivider.app/"
+        }],
+        "dateAdded": 1641848138708,
+        "dateGroupModified": 1642817103963,
+        "id": "313",
+        "index": 6,
+        "parentId": "257",
+        "title": "Layouts"
+      }, {
+        "children": [{
+          "dateAdded": 1636520751000,
+          "id": "258",
+          "index": 0,
+          "parentId": "315",
+          "title": "LottieFiles",
+          "url": "https://lottiefiles.com/"
+        }, {
+          "dateAdded": 1636870388000,
+          "id": "261",
+          "index": 1,
+          "parentId": "315",
+          "title": "KUTE.js js animations",
+          "url": "https://thednp.github.io/kute.js/"
+        }, {
+          "dateAdded": 1636951362000,
+          "id": "264",
+          "index": 2,
+          "parentId": "315",
+          "title": "AEUX",
+          "url": "https://aeux.io/"
+        }, {
+          "dateAdded": 1641958186852,
+          "id": "328",
+          "index": 3,
+          "parentId": "315",
+          "title": "Lofi UI",
+          "url": "https://lofiui.co/"
+        }],
+        "dateAdded": 1641848234012,
+        "dateGroupModified": 1642817143172,
+        "id": "315",
+        "index": 7,
+        "parentId": "257",
+        "title": "styling modules"
+      }, {
+        "dateAdded": 1641837058935,
+        "id": "297",
+        "index": 8,
+        "parentId": "257",
+        "title": "Omatsuri",
+        "url": "https://omatsuri.app/"
+      }, {
+        "dateAdded": 1636869876000,
+        "id": "259",
+        "index": 9,
+        "parentId": "257",
+        "title": "Haikei",
+        "url": "https://app.haikei.app/"
+      }, {
+        "dateAdded": 1642812298471,
+        "id": "375",
+        "index": 10,
+        "parentId": "257",
+        "title": "Designspiration",
+        "url": "https://www.designspiration.com/"
+      }, {
+        "dateAdded": 1642812234079,
+        "id": "373",
+        "index": 11,
+        "parentId": "257",
+        "title": "Photopea | Online Photo Editor",
+        "url": "https://www.photopea.com/"
+      }, {
+        "dateAdded": 1642812252442,
+        "id": "374",
+        "index": 12,
+        "parentId": "257",
+        "title": "Framer: A Free Interactive Design Tool for Teams",
+        "url": "https://www.framer.com/"
+      }, {
+        "dateAdded": 1644899893200,
+        "id": "423",
+        "index": 13,
+        "parentId": "257",
+        "title": "GRID: A simple visual cheatsheet for CSS Grid Layout",
+        "url": "https://grid.malven.co/"
+      }, {
+        "dateAdded": 1646544695543,
+        "id": "460",
+        "index": 14,
+        "parentId": "257",
+        "title": "NextUI - Beautiful, fast and modern React UI Library",
+        "url": "https://nextui.org/"
+      }, {
+        "dateAdded": 1646619180168,
+        "id": "464",
+        "index": 15,
+        "parentId": "257",
+        "title": "SvgPathEditor",
+        "url": "https://yqnn.github.io/svg-path-editor/"
+      }, {
+        "dateAdded": 1646686275602,
+        "id": "466",
+        "index": 16,
+        "parentId": "257",
+        "title": "200,000+ Free & Premium Templates | Template.net",
+        "url": "https://www.template.net/"
+      }, {
+        "dateAdded": 1646690380343,
+        "id": "465",
+        "index": 17,
+        "parentId": "257",
+        "title": "Getting started with Sanity UI – Sanity UI",
+        "url": "https://www.sanity.io/ui/docs"
+      }, {
+        "dateAdded": 1646928073364,
+        "id": "468",
+        "index": 18,
+        "parentId": "257",
+        "title": "Manrope – free sans-serif variable font",
+        "url": "https://manropefont.com/"
+      }, {
+        "dateAdded": 1647029034542,
+        "id": "471",
+        "index": 19,
+        "parentId": "257",
+        "title": "Squoosh",
+        "url": "https://squoosh.app/"
+      }, {
+        "dateAdded": 1647378517085,
+        "id": "481",
+        "index": 20,
+        "parentId": "257",
+        "title": "Roland50.studio",
+        "url": "https://roland50.studio/"
+      }, {
+        "dateAdded": 1647477824286,
+        "id": "480",
+        "index": 21,
+        "parentId": "257",
+        "title": "Tailwind CSS 10-color Palette Generator and API",
+        "url": "https://tailwind.simeongriggs.dev/purple/A855F7"
+      }, {
+        "dateAdded": 1647570266502,
+        "id": "479",
+        "index": 22,
+        "parentId": "257",
+        "title": "size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file#unique_file_type_specifiers"
+      }, {
+        "dateAdded": 1647619697892,
+        "id": "478",
+        "index": 23,
+        "parentId": "257",
+        "title": "Mantine",
+        "url": "https://mantine.dev/"
+      }, {
+        "dateAdded": 1647964883602,
+        "id": "485",
+        "index": 24,
+        "parentId": "257",
+        "title": "DVD Menus",
+        "url": "https://dvdmoviemenus.com/"
+      }, {
+        "dateAdded": 1647973881967,
+        "id": "489",
+        "index": 25,
+        "parentId": "257",
+        "title": "Amplication - Generate Node.js apps, just code what matters",
+        "url": "https://amplication.com/"
+      }, {
+        "dateAdded": 1648074935655,
+        "id": "492",
+        "index": 26,
+        "parentId": "257",
+        "title": "CSS Custom Properties In The Cascade — Smashing Magazine",
+        "url": "https://www.smashingmagazine.com/2019/07/css-custom-properties-cascade/"
+      }],
+      "dateAdded": 1638133652925,
+      "dateGroupModified": 1648074935655,
+      "id": "257",
+      "index": 14,
+      "parentId": "1",
+      "title": "🎨"
+    }, {
+      "children": [{
+        "dateAdded": 1636932913000,
+        "id": "255",
+        "index": 0,
+        "parentId": "247",
+        "title": "JSON Generator",
+        "url": "https://next.json-generator.com/"
+      }, {
+        "dateAdded": 1637382632000,
+        "id": "256",
+        "index": 1,
+        "parentId": "247",
+        "title": "JSON Gen Tool",
+        "url": "https://www.json-generator.com/"
+      }, {
+        "dateAdded": 1640901300479,
+        "id": "293",
+        "index": 2,
+        "parentId": "247",
+        "title": "Quicktype",
+        "url": "https://app.quicktype.io/"
+      }, {
+        "dateAdded": 1641842573460,
+        "id": "298",
+        "index": 3,
+        "parentId": "247",
+        "title": "Insomnia API Design",
+        "url": "https://insomnia.rest/"
+      }, {
+        "dateAdded": 1642356530859,
+        "id": "335",
+        "index": 4,
+        "parentId": "247",
+        "title": "RapidAPI",
+        "url": "https://rapidapi.com/"
+      }, {
+        "dateAdded": 1643779645836,
+        "id": "403",
+        "index": 5,
+        "parentId": "247",
+        "title": "createapp - webpack/Parcel/Snowpack boilerplate generator",
+        "url": "https://createapp.dev/parcel/react--babel"
+      }, {
+        "dateAdded": 1644528211540,
+        "id": "426",
+        "index": 6,
+        "parentId": "247",
+        "title": "Code Hike",
+        "url": "https://codehike.org/"
+      }, {
+        "dateAdded": 1644800429517,
+        "id": "428",
+        "index": 7,
+        "parentId": "247",
+        "title": "Most Powerful Cross Browser Testing Tool Online | LambdaTest",
+        "url": "https://www.lambdatest.com/"
+      }, {
+        "dateAdded": 1644873432356,
+        "id": "425",
+        "index": 8,
+        "parentId": "247",
+        "title": "regex101: build, test, and debug regex",
+        "url": "https://regex101.com/"
+      }, {
+        "dateAdded": 1644873575895,
+        "id": "427",
+        "index": 9,
+        "parentId": "247",
+        "title": "Epoch Converter - Unix Timestamp Converter",
+        "url": "https://www.epochconverter.com/"
+      }, {
+        "dateAdded": 1644899972983,
+        "id": "429",
+        "index": 10,
+        "parentId": "247",
+        "title": "Javascript Cheat Sheet | OverAPI.com",
+        "url": "https://overapi.com/javascript"
+      }, {
+        "dateAdded": 1645677006364,
+        "id": "440",
+        "index": 11,
+        "parentId": "247",
+        "title": "public-apis/public-apis: A collective list of free APIs",
+        "url": "https://github.com/public-apis/public-apis"
+      }, {
+        "dateAdded": 1645813398169,
+        "id": "439",
+        "index": 12,
+        "parentId": "247",
+        "title": "GROQ Arcade",
+        "url": "https://groq.dev/"
+      }, {
+        "dateAdded": 1646324726644,
+        "id": "448",
+        "index": 13,
+        "parentId": "247",
+        "title": "UNdata",
+        "url": "http://data.un.org/"
+      }, {
+        "dateAdded": 1646366868674,
+        "id": "451",
+        "index": 14,
+        "parentId": "247",
+        "title": "Favicon Grabber — Online service with public API to grab favicons from any domain",
+        "url": "https://favicongrabber.com/"
+      }, {
+        "dateAdded": 1646366976722,
+        "id": "452",
+        "index": 15,
+        "parentId": "247",
+        "title": "Popper - Tooltip & Popover Positioning Engine",
+        "url": "https://popper.js.org/"
+      }, {
+        "dateAdded": 1646422948477,
+        "id": "455",
+        "index": 16,
+        "parentId": "247",
+        "title": "React Big Calendar",
+        "url": "https://jquense.github.io/react-big-calendar/examples/index.html"
+      }, {
+        "dateAdded": 1647477652849,
+        "id": "474",
+        "index": 17,
+        "parentId": "247",
+        "title": "My JSON Server - Fake online REST server for teams",
+        "url": "https://my-json-server.typicode.com/"
+      }, {
+        "dateAdded": 1647973787881,
+        "id": "487",
+        "index": 18,
+        "parentId": "247",
+        "title": "Hoppscotch - Open source API development ecosystem",
+        "url": "https://hoppscotch.io/"
+      }, {
+        "dateAdded": 1647973797725,
+        "id": "488",
+        "index": 19,
+        "parentId": "247",
+        "title": "NocoDB | Turns your SQL database into a Nocode platform. Free & Open Source.",
+        "url": "https://nocodb.com/"
+      }, {
+        "dateAdded": 1647982066792,
+        "id": "490",
+        "index": 20,
+        "parentId": "247",
+        "title": "Amplication",
+        "url": "https://app.amplication.com/"
+      }],
+      "dateAdded": 1638133652924,
+      "dateGroupModified": 1647982066792,
+      "id": "247",
+      "index": 15,
+      "parentId": "1",
+      "title": "{}"
+    }, {
+      "children": [{
+        "dateAdded": 1642542914740,
+        "id": "355",
+        "index": 0,
+        "parentId": "354",
+        "title": "The ultimate guide to GROQ",
+        "url": "https://hdoro.dev/learn-groq"
+      }, {
+        "dateAdded": 1643302937048,
+        "id": "400",
+        "index": 1,
+        "parentId": "354",
+        "title": "Sanity Onboarding Academy",
+        "url": "https://www.notion.so/sanityio/Sanity-Onboarding-Academy-6ca9ebf490644e14965a6cba7f15a96d"
+      }, {
+        "dateAdded": 1644257226648,
+        "id": "409",
+        "index": 2,
+        "parentId": "354",
+        "title": "egghead",
+        "url": "https://egghead.io/"
+      }, {
+        "dateAdded": 1644548090578,
+        "id": "416",
+        "index": 3,
+        "parentId": "354",
+        "title": "Intro | Learn JavaScript",
+        "url": "https://learnjavascript.online/app.html"
+      }, {
+        "dateAdded": 1644548119091,
+        "id": "417",
+        "index": 4,
+        "parentId": "354",
+        "title": "Exercise v3.0",
+        "url": "https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1"
+      }, {
+        "dateAdded": 1644549482167,
+        "id": "421",
+        "index": 5,
+        "parentId": "354",
+        "title": "Intro to JS: Drawing & Animation | Computer programming | Khan Academy",
+        "url": "https://www.khanacademy.org/computing/computer-programming/programming"
+      }, {
+        "dateAdded": 1644549487153,
+        "id": "412",
+        "index": 6,
+        "parentId": "354",
+        "title": "Learn to Code — For Free — Coding Courses for Busy People",
+        "url": "https://www.freecodecamp.org/learn"
+      }, {
+        "dateAdded": 1644606398465,
+        "id": "418",
+        "index": 7,
+        "parentId": "354",
+        "title": "CSR / SSR / SSG / ISR with Next.js – Explained! - YouTube",
+        "url": "https://www.youtube.com/watch?v=eMwTEo6AjDc"
+      }, {
+        "dateAdded": 1644606406562,
+        "id": "414",
+        "index": 8,
+        "parentId": "354",
+        "title": "What is Incremental Static Regeneration? (ISR) - YouTube",
+        "url": "https://www.youtube.com/watch?v=nrfuN_Hyd3Y"
+      }, {
+        "dateAdded": 1644606420243,
+        "id": "419",
+        "index": 9,
+        "parentId": "354",
+        "title": "CDN Caching, Static Site Generation, and Server Side Rendering - YouTube",
+        "url": "https://www.youtube.com/watch?v=bfLFHp7Sbkg"
+      }, {
+        "dateAdded": 1644631008564,
+        "id": "413",
+        "index": 10,
+        "parentId": "354",
+        "title": "Courses - Wes Bos",
+        "url": "https://wesbos.com/courses"
+      }, {
+        "dateAdded": 1644800419026,
+        "id": "420",
+        "index": 11,
+        "parentId": "354",
+        "title": "Developer Roadmaps",
+        "url": "https://roadmap.sh/"
+      }, {
+        "dateAdded": 1644873656945,
+        "id": "415",
+        "index": 12,
+        "parentId": "354",
+        "title": "CSSBattle - the CSS code-golfing game!",
+        "url": "https://cssbattle.dev/"
+      }, {
+        "dateAdded": 1644951458426,
+        "id": "422",
+        "index": 13,
+        "parentId": "354",
+        "title": "Knowledge Map | Learn JavaScript",
+        "url": "https://learnjavascript.online/knowledge-map.html?ref=producthunt"
+      }, {
+        "dateAdded": 1646159414706,
+        "id": "444",
+        "index": 14,
+        "parentId": "354",
+        "title": "Onboarding Academy - Q1 2022 - Sanity - Google Drive",
+        "url": "https://drive.google.com/drive/u/1/folders/1Ulqgf6J_SD08pffIRJlKlMvYACca91ZH"
+      }, {
+        "dateAdded": 1646459269112,
+        "id": "459",
+        "index": 15,
+        "parentId": "354",
+        "title": "React - The full course",
+        "url": "https://fireship.io/courses/react/"
+      }, {
+        "dateAdded": 1646802684687,
+        "id": "463",
+        "index": 16,
+        "parentId": "354",
+        "title": "Odi",
+        "url": "https://www.theodinproject.com/"
+      }, {
+        "dateAdded": 1647129118008,
+        "id": "472",
+        "index": 17,
+        "parentId": "354",
+        "title": "10 amazing games to learn CSS",
+        "url": "https://h.daily-dev-tips.com/10-amazing-games-to-learn-css"
+      }, {
+        "dateAdded": 1647316334699,
+        "id": "477",
+        "index": 18,
+        "parentId": "354",
+        "title": "Introduction | Learn Next.js",
+        "url": "https://nextjs.org/learn/foundations/about-nextjs"
+      }, {
+        "dateAdded": 1647477808997,
+        "id": "476",
+        "index": 19,
+        "parentId": "354",
+        "title": "Patterns for Next.js, Sanity.io, Catch-all Routes and Slugs | simeonGriggs.dev",
+        "url": "https://www.simeongriggs.dev/nextjs-sanity-slug-patterns"
+      }, {
+        "dateAdded": 1647703993648,
+        "id": "482",
+        "index": 20,
+        "parentId": "354",
+        "title": "Edabit",
+        "url": "https://edabit.com/challenges/javascript"
+      }],
+      "dateAdded": 1642542910231,
+      "dateGroupModified": 1647703993648,
+      "id": "354",
+      "index": 16,
+      "parentId": "1",
+      "title": "🎓"
+    }, {
+      "children": [{
+        "dateAdded": 1642634141203,
+        "id": "360",
+        "index": 0,
+        "parentId": "337",
+        "title": "Sanity Github",
+        "url": "https://github.com/sanity-io"
+      }, {
+        "dateAdded": 1642654098039,
+        "id": "361",
+        "index": 1,
+        "parentId": "337",
+        "title": "Notion MyLinks",
+        "url": "https://www.notion.so/sanityio/6eb8df5d0d0544208e4a7b0d4b6d6fba?v=47248ae27c3a4dd0953709d864bd7516"
+      }, {
+        "dateAdded": 1642435119749,
+        "id": "338",
+        "index": 2,
+        "parentId": "337",
+        "title": "Shortcut",
+        "url": "https://app.shortcut.com/sanity-io/dashboard"
+      }, {
+        "children": [{
+          "dateAdded": 1642529472907,
+          "id": "353",
+          "index": 0,
+          "parentId": "363",
+          "title": "Rippling",
+          "url": "https://app.rippling.com/insurance/employee/overview/home"
+        }, {
+          "dateAdded": 1642460545939,
+          "id": "350",
+          "index": 1,
+          "parentId": "363",
+          "title": "Expensify: Easy Money",
+          "url": "https://www.expensify.com/"
+        }, {
+          "dateAdded": 1642452930843,
+          "id": "346",
+          "index": 2,
+          "parentId": "363",
+          "title": "Employee Handbook",
+          "url": "https://intra.sanity.io/desk/sanityHandbooks;employeeHandbook"
+        }, {
+          "dateAdded": 1642443942345,
+          "id": "342",
+          "index": 3,
+          "parentId": "363",
+          "title": "Intranet",
+          "url": "https://intra.sanity.io/desk/__edit__7a9bc245-574f-4dd6-bb63-74a356c0af3b%2Ctype%3Dperson%2Ctemplate%3Dperson"
+        }],
+        "dateAdded": 1642654361348,
+        "dateGroupModified": 1645902899899,
+        "id": "363",
+        "index": 3,
+        "parentId": "337",
+        "title": "Company"
+      }, {
+        "dateAdded": 1642459550130,
+        "id": "349",
+        "index": 4,
+        "parentId": "337",
+        "title": "Custodian",
+        "url": "https://custodian.sanity.io/organizations"
+      }, {
+        "dateAdded": 1646356992040,
+        "id": "450",
+        "index": 5,
+        "parentId": "337",
+        "title": "BigQuery",
+        "url": "https://console.cloud.google.com/bigquery?authuser=1&project=sanity-cloud"
+      }, {
+        "dateAdded": 1645226890864,
+        "id": "432",
+        "index": 6,
+        "parentId": "337",
+        "title": "Looker",
+        "url": "https://sanityio.cloud.looker.com/login"
+      }, {
+        "dateAdded": 1645804986843,
+        "id": "437",
+        "index": 7,
+        "parentId": "337",
+        "title": "Grafana-AreWeDown?",
+        "url": "https://grafana.sanity.io/d/F-upHbeWk/google-load-balancing?orgId=1&from=now-3h&to=now"
+      }, {
+        "dateAdded": 1642526028806,
+        "id": "352",
+        "index": 8,
+        "parentId": "337",
+        "title": "Hyperdrive",
+        "url": "https://hyperdrive.sanity.build/desk"
+      }, {
+        "dateAdded": 1643821864607,
+        "id": "404",
+        "index": 9,
+        "parentId": "337",
+        "title": "Jumpstart Insights™ – Sanity",
+        "url": "https://jumpstart.sanity.studio/dashboard"
+      }, {
+        "dateAdded": 1645713731812,
+        "id": "438",
+        "index": 10,
+        "parentId": "337",
+        "title": "Sanity.io – Sanity",
+        "url": "https://admin.sanity.io/desk"
+      }, {
+        "dateAdded": 1642544227064,
+        "id": "357",
+        "index": 11,
+        "parentId": "337",
+        "title": "Community Studio",
+        "url": "https://community.sanity.tools/desk"
+      }, {
+        "dateAdded": 1642443910721,
+        "id": "341",
+        "index": 12,
+        "parentId": "337",
+        "title": "Sanity Drive",
+        "url": "https://drive.google.com/drive/u/1/folders/0AMRu66mT2bDUUk9PVA"
+      }, {
+        "dateAdded": 1642789522529,
+        "id": "370",
+        "index": 13,
+        "parentId": "337",
+        "title": "Weekly Studio Versioning › Page 1",
+        "url": "https://datastudio.google.com/u/1/reporting/721a97c8-8778-43a7-b056-b037687d2cba/page/veWpB"
+      }, {
+        "dateAdded": 1642544590889,
+        "id": "358",
+        "index": 14,
+        "parentId": "337",
+        "title": "Design Studio",
+        "url": "https://sanity-ui-workshop.sanity.build/"
+      }, {
+        "dateAdded": 1643216729424,
+        "id": "398",
+        "index": 15,
+        "parentId": "337",
+        "title": "Content Calendar",
+        "url": "https://www.notion.so/sanityio/Content-Calendar-2ad867adff714e1b9a0dd523422b2c55"
+      }, {
+        "dateAdded": 1643303789490,
+        "id": "401",
+        "index": 16,
+        "parentId": "337",
+        "title": "sanity-codegen.dev",
+        "url": "https://sanity-codegen.dev/"
+      }, {
+        "children": [{
+          "dateAdded": 1642725462617,
+          "id": "368",
+          "index": 0,
+          "parentId": "362",
+          "title": "Sanity Studio Test Data – Overview | Sanity.io",
+          "url": "https://www.sanity.io/organizations/oSyH1iET5/project/ppsg7ml5"
+        }, {
+          "dateAdded": 1642448492298,
+          "id": "343",
+          "index": 1,
+          "parentId": "362",
+          "title": "Intranet Studio",
+          "url": "https://www.sanity.io/organizations/oRO8LCn7v/project/7l3e6r0c"
+        }, {
+          "dateAdded": 1646110923378,
+          "id": "442",
+          "index": 2,
+          "parentId": "362",
+          "title": "re",
+          "url": "https://www.sanity.io/docs/validation"
+        }],
+        "dateAdded": 1642654230931,
+        "dateGroupModified": 1646110923378,
+        "id": "362",
+        "index": 17,
+        "parentId": "337",
+        "title": "Studios:Production"
+      }, {
+        "children": [{
+          "dateAdded": 1646176493384,
+          "id": "445",
+          "index": 0,
+          "parentId": "447",
+          "title": "Whichcar – o6xdy26d",
+          "url": "https://studio.whichcar.com.au/desk"
+        }, {
+          "dateAdded": 1646176818336,
+          "id": "446",
+          "index": 1,
+          "parentId": "447",
+          "title": "Whichcar – DEV-o6xdy26d",
+          "url": "https://studio.dev.whichcar.com.au/desk/articles"
+        }],
+        "dateAdded": 1646192817013,
+        "dateGroupModified": 1646192823239,
+        "id": "447",
+        "index": 18,
+        "parentId": "337",
+        "title": "client"
+      }, {
+        "dateAdded": 1646416619565,
+        "id": "454",
+        "index": 19,
+        "parentId": "337",
+        "title": "Log In to Postmark",
+        "url": "https://account.postmarkapp.com/login"
+      }, {
+        "dateAdded": 1647016490710,
+        "id": "469",
+        "index": 20,
+        "parentId": "337",
+        "title": "equinor/energyvision: Home to the next version of the equinor.com website",
+        "url": "https://github.com/equinor/energyvision"
+      }, {
+        "dateAdded": 1647019447561,
+        "id": "470",
+        "index": 21,
+        "parentId": "337",
+        "title": "Legion status - Grafana",
+        "url": "https://grafana.sanity.io/d/66A_H6Y7k/legion-status?orgId=1&from=now-6h&to=now"
+      }, {
+        "dateAdded": 1647633659246,
+        "id": "475",
+        "index": 22,
+        "parentId": "337",
+        "title": "Sanity Status",
+        "url": "https://www.sanity-status.com/#"
+      }, {
+        "dateAdded": 1647717581142,
+        "id": "483",
+        "index": 23,
+        "parentId": "337",
+        "title": "https://sanity-ui-workshop.sanity.build/frame/?path=/icons/overview",
+        "url": "https://sanity-ui-workshop.sanity.build/frame/?path=/icons/overview"
+      }, {
+        "dateAdded": 1647966354583,
+        "id": "486",
+        "index": 24,
+        "parentId": "337",
+        "title": "(2) Q2 Support Rotation",
+        "url": "https://www.notion.so/sanityio/Q2-Support-Rotation-38ae4b5aa1ba45ed8db59615e2028cb7"
+      }],
+      "dateAdded": 1642435046318,
+      "dateGroupModified": 1647966354583,
+      "id": "337",
+      "index": 17,
+      "parentId": "1",
+      "title": "🇳🇴"
+    }, {
+      "dateAdded": 1644257125746,
+      "id": "408",
+      "index": 18,
+      "parentId": "1",
+      "title": "",
+      "url": "https://www.notion.so/sanityio/6eb8df5d0d0544208e4a7b0d4b6d6fba?v=47248ae27c3a4dd0953709d864bd7516"
+    }, {
+      "dateAdded": 1646430516847,
+      "id": "457",
+      "index": 19,
+      "parentId": "1",
+      "title": "Mng",
+      "url": "https://www.sanity.io/manage"
+    }, {
+      "dateAdded": 1646430499545,
+      "id": "456",
+      "index": 20,
+      "parentId": "1",
+      "title": "Docs",
+      "url": "https://www.sanity.io/docs/sanity-studio"
+    }, {
+      "dateAdded": 1642700482682,
+      "id": "364",
+      "index": 21,
+      "parentId": "1",
+      "title": "3333",
+      "url": "http://localhost:3333/"
+    }, {
+      "dateAdded": 1642700504465,
+      "id": "365",
+      "index": 22,
+      "parentId": "1",
+      "title": "3000",
+      "url": "http://localhost:3000/"
+    }],
+    "dateAdded": 1640406381497,
+    "dateGroupModified": 1646845420999,
+    "id": "1",
+    "index": 0,
+    "parentId": "0",
+    "title": "Bookmarks Bar"
+  }, {
+    "children": [{
+      "dateAdded": 1633318879247,
+      "id": "5",
+      "index": 0,
+      "parentId": "2",
+      "title": "9 Best Online IDE and Code Editors to Develop Web Applications",
+      "url": "https://geekflare.com/online-code-editors/"
+    }, {
+      "dateAdded": 1633318780776,
+      "id": "6",
+      "index": 1,
+      "parentId": "2",
+      "title": "codeAnywhere",
+      "url": "https://codeanywhere.com/"
+    }, {
+      "dateAdded": 1628109964564,
+      "id": "7",
+      "index": 2,
+      "parentId": "2",
+      "title": "Codepen",
+      "url": "https://codepen.io/your-work/"
+    }, {
+      "dateAdded": 1633318289813,
+      "id": "8",
+      "index": 3,
+      "parentId": "2",
+      "title": "CodeSB",
+      "url": "https://codesandbox.io/dashboard/home"
+    }, {
+      "dateAdded": 1628290876294,
+      "id": "9",
+      "index": 4,
+      "parentId": "2",
+      "title": "Replit",
+      "url": "https://replit.com/~"
+    }, {
+      "dateAdded": 1633326616220,
+      "id": "10",
+      "index": 5,
+      "parentId": "2",
+      "title": "React Notes App Tutorial from Scratch | A CSS and React Project you can add to your Portfolio! - YouTube",
+      "url": "https://www.youtube.com/watch?v=8KB3DHI-QbM&t=2906"
+    }, {
+      "dateAdded": 1633532676503,
+      "id": "11",
+      "index": 6,
+      "parentId": "2",
+      "title": "",
+      "url": "https://www.youtube.com/"
+    }, {
+      "dateAdded": 1633632614929,
+      "id": "12",
+      "index": 7,
+      "parentId": "2",
+      "title": "Bored API",
+      "url": "https://www.boredapi.com/documentation"
+    }, {
+      "dateAdded": 1638985283802,
+      "id": "171",
+      "index": 8,
+      "parentId": "2",
+      "title": "Django Ninja",
+      "url": "https://django-ninja.rest-framework.com/"
+    }, {
+      "dateAdded": 1639768312635,
+      "id": "172",
+      "index": 9,
+      "parentId": "2",
+      "title": "chromeflags",
+      "url": "chrome://flags/"
+    }],
+    "dateAdded": 1640406381497,
+    "dateGroupModified": 1639768312635,
+    "id": "2",
+    "index": 1,
+    "parentId": "0",
+    "title": "Other Bookmarks"
+  }],
+  "dateAdded": 1648143284075,
+  "id": "0",
+  "title": ""
+}]
