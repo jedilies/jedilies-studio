@@ -13,18 +13,21 @@ export default function Home({ categories, bookmarks }) {
 
       <main className="m-10">
         <h1> Beep Boop.</h1>
-        <p>This is a line. and another line. and one more line.</p>
+        <hr/>
+        <h2>Input</h2>
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <hr />
+        <br /><hr/>
+        <h2>List Categories</h2>
+        
         {categories.length > 0 &&
           categories.map(({ _id, title = "" }) => <div key={_id}>{title}</div>)}
-        <hr />
+
+        <br /><hr/>
+        <h2>List Bookmarks</h2>
+        
         {bookmarks.length > 0 &&
           bookmarks.map(({ _id, title = "" }) => <div key={_id}>{title}</div>)}
+
       </main>
     </div>
   );
