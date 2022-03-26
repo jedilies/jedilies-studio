@@ -11,6 +11,7 @@ import bookmark from './documents/bookmark'
 import category from './documents/category'
 import tag from './documents/tag'
 import task from './documents/task'
+import testDoc from './test/testDoc'
 
 /* TEST ---------------------------------------------- */
 
@@ -31,6 +32,7 @@ export default createSchema({
     category,
     tag,
     task,
+    testDoc,
 
     /* OBJECTS ---------------------------------------------- */
     ptext,

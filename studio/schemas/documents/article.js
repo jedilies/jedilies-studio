@@ -1,6 +1,8 @@
 import React from 'react'
 import Icon from '../../components/emojiIcon'
 
+
+
 export default {
   name: 'article',
   title: 'Article',
@@ -42,26 +44,50 @@ export default {
       initialValue: (new Date()).toISOString()
     },
     {
-      name: 'slug', title: 'Slug', type: 'slug', group: 'properties',
+      name: 'slug', 
+      title: 'Slug', 
+      type: 'slug', 
+      group: 'properties',
       options: { source: 'title', maxLength: 96 }
     },
     {
-      name: 'summary', title: 'Summary', type: 'string', group: 'content',
+      name: 'summary', 
+      title: 'Summary', 
+      type: 'string', 
+      group: 'content',
     },
     {
-      name: 'image', type: 'image', title: 'Image', group: 'media',
+      name: 'image', 
+      type: 'image', 
+      title: 'Image', 
+      group: 'media',
       options: { hotspot: true }
     },
     {
-      name: 'category', title: 'Category', type: 'reference', group: 'properties',
-      to: {type: 'category'}
+      name: 'category', 
+      title: 'Category', 
+      type: 'reference', 
+      to: {type: 'category'},
+      group: 'properties',
     },
     {
-      name: 'tags', title: 'Tags', type: 'array', group: 'properties',
-      of: [{ type: 'reference', to: [{type:'tag'}] }]
+      name: 'tags', 
+      title: 'Tags', 
+      type: 'array', 
+      group: 'properties',
+      of: [{ 
+        type: 'reference', 
+        to: [{type:'tag'}] 
+      }],
+      options: {
+        sortable: true
+      }
     },
     {
-      name: 'body', title: 'Body', type: 'ptext', group: 'content',
+      name: 'body', 
+      title: 'Body', 
+      type: 'ptext', 
+      group: 'content',
     }
   ],
 }
