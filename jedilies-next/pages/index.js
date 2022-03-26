@@ -9,22 +9,17 @@ export default function Home({ categories, bookmarks }) {
 
   return (
     <div>
-      <Head>
-        <title>Beep Boop</title>
-        <meta name="description" content="Beep Boop" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main className="m-10">
         <h1>Jedi Lies</h1>
         <br /><hr/>
         <h2>Input</h2>
-        <form onSubmit={handleSubmit}>
-          <label>Title</label>
-          <input type="text" name="title" />
-          <label>Description</label>
-          <textarea name="description" />
-          <button type="submit">Submit</button>
+        <form>
+          <label>
+            New Category: 
+            <input type="text" name="name" />
+          </label>
+          <button className="btn">Submit</button>
         </form>
        
         <br /><hr/>
