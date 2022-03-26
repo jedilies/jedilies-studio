@@ -6,6 +6,11 @@
   "main": "package.json",
   "author": "Julia Silver <julesrsilver@gmail.com>",
   "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check",
+    "build": "sanity build public -y"
+  },
   "dependencies": {
     "@bedrock-layout/columns": "^2.4.0",
     "@sanity/base": "^2.29.1",
