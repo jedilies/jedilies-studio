@@ -1,1 +1,0 @@
-api client and query info go in respective dirs here
