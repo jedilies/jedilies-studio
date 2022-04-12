@@ -1,20 +1,36 @@
 {
-  "name": "jedilies",
-  "version": "0.1.0",
+  "name": "jedilies-studio",
   "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Julia Silver <julesrsilver@gmail.com>",
+  "license": "UNLICENSED",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "sanity start",
+    "build": "sanity build",
+    "upgrade": "sanity upgrade"
   },
   "dependencies": {
-    "next": "12.1.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@sanity/base": "^2.29.5",
+    "@sanity/color-input": "^2.29.5",
+    "@sanity/core": "^2.29.5",
+    "@sanity/default-layout": "^2.29.5",
+    "@sanity/default-login": "^2.29.5",
+    "@sanity/desk-tool": "^2.29.5",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/types": "^2.29.5",
+    "@sanity/vision": "^2.29.5",
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "sanity-plugin-markdown": "^2.1.1",
+    "sanity-plugin-media-library": "^2.0.2",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.1"
-  }
+    "@sanity/cli": "^2.29.5"
+  },
+  "keywords": []
 }

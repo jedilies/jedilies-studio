@@ -1,3 +1,5 @@
+# Jedilies Sanity Studio
+> *personal learning, testing, and content*
 # JediLies
 - [deployed site](https://jedilies.vercel.app/)
 - [site repo](https://github.com/julesjazz/jedilies)

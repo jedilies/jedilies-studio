@@ -1,0 +1,41 @@
+{
+  "root": true,
+  "project": {
+    "name": "jedilies"
+  },
+  "api": {
+    "projectId": "hz6n859k",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/vision",
+    "markdown",
+    "media-library",
+    "@sanity/color-input"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    },
+    {
+      "implements": "part:@sanity/base/theme/variables/override-style",
+      "path": "./styles/style-override.css"
+    },
+    {
+      "implements": "part:@sanity/base/brand-logo",
+      "path": "components/studio/logo.js"
+    }
+  ]
+}

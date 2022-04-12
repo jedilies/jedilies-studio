@@ -11,10 +11,5 @@ node_modules
 # Compiled sanity studio
 /dist
 
-.env*
-schemas/.DS_Store
-
-# misc
-.DS_Store
-*.pem
-
+/public/*
+/public/index.html
