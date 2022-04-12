@@ -1,5 +1,5 @@
 import React from "react"
-import Icon from "../../components/emojiIcon"
+import Icon from "../../components/emoji"
 // import Colorcards from "../../components/Colorcards"
 
 export default {
@@ -7,7 +7,7 @@ export default {
   title: 'Title Only',
   type: 'document',
   liveEdit: false,
-  icon: () => <Icon emoji="🧪" />,
+  icon: () => <Icon e="🧪" />,
   fields: [
     {
       name: 'title',

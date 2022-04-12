@@ -1,12 +1,12 @@
 import React from 'react'
-import Icon from '../../components/emojiIcon'
+import Icon from '../../components/emoji'
 
 export default {
   name: 'task',
   title: 'Task',
   type: 'document',
   liveEdit: true,
-  icon: () => <Icon emoji="✔" />,
+  icon: () => <Icon e="✔" />,
   preview: {
     select: {
       title: 'title',
@@ -18,8 +18,8 @@ export default {
         title: title,
         subtitle: `${summary || ''}`,
         media: () => {
-          if (completed === true) return <Icon emoji="☑︎" />
-          else return <Icon emoji="☐" />
+          if (completed === true) return <Icon e="☑︎" />
+          else return <Icon e="☐" />
         }
       }
     }

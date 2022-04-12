@@ -1,5 +1,5 @@
 import React from "react"
-import Icon from "../../components/emojiIcon"
+import Icon from "../../components/emoji"
 import client from 'part:@sanity/base/client'
 
 const sClient = client.withConfig({ apiVersion: '2022-04-01' })
@@ -9,7 +9,7 @@ export default {
   title: 'Test performance',
   type: 'document',
   liveEdit: false,
-  icon: () => <Icon emoji="🧪" />,
+  icon: () => <Icon e="🧪" />,
   fields: [
     {
       name: 'title',

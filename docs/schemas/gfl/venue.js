@@ -1,12 +1,12 @@
 import React from "react"
-import Icon from "../../components/emojiIcon"
+import Icon from "../../components/emoji"
 
 export default {
   name: 'venue',
   title: 'Test Venue',
   type: 'document',
   liveEdit: false,
-  icon: () => <Icon emoji="🧪" />,
+  icon: () => <Icon e="🧪" />,
   fields: [
     {
       name: 'title',

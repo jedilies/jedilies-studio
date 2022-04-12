@@ -8,4 +8,4 @@ sanityClient
   .then(console.log)
   .catch(console.error)
 
-// sanity exec scripts/deleteAllAssets.js --with-user-token
+// sanity exec scripts/deleteImgAssets.js --with-user-token

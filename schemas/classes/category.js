@@ -1,12 +1,12 @@
 import React from "react"
-import Icon from "../../components/emojiIcon"
+import Icon from "../../components/emoji"
 
 export default {
   name: 'category',
   title: 'Category',
   type: 'document',
   liveEdit: true,
-  icon: () => <Icon emoji="⫻" />,
+  icon: () => <Icon e="⫻" />,
   preview: {
     select: {
       title: 'title',
@@ -14,7 +14,7 @@ export default {
     prepare({title}) {
       return {
         title: title,
-        media: <Icon emoji="⫻"/>
+        media: <Icon e="⫻"/>
       }
     }
   },

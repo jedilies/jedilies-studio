@@ -1,5 +1,5 @@
 import React from "react"
-import Icon from "../../components/emojiIcon"
+import Icon from "../../components/emoji"
 
 
 
@@ -8,7 +8,7 @@ export default {
   title: 'Tag',
   type: 'document',
   liveEdit: true,
-  icon: () => <Icon emoji="⨾" />,
+  icon: () => <Icon e="⨾" />,
   preview: {
     select: {
       title: 'title',
@@ -17,7 +17,7 @@ export default {
     prepare({title, media}) {
       return {
         title: title,
-        media: <Icon emoji={media} />
+        media: <Icon e={media} />
       }
     }
   },
