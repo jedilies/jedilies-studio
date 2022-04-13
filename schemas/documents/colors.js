@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../components/emoji';
+import Icon from '../../components/icons/emoji';
 import styled from 'styled-components';
 import { ColorSwatch } from '@styled-icons/heroicons-outline/ColorSwatch';
 const ColorIcon = styled(ColorSwatch)`
@@ -34,14 +34,14 @@ export default {
       type: 'string',
     },
     {
-      name: 'source',
-      title: 'Source',
-      type: 'string',
-    },
-    {
       name: 'image',
       type: 'image',
       title: 'Image',
+    },
+    {
+      name: 'source',
+      title: 'Source',
+      type: 'string',
     },
     {
       name: 'notes',

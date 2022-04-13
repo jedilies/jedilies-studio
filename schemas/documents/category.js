@@ -1,7 +1,9 @@
 import React from 'react';
-import Icon from '../../components/emoji';
+import Icon from '../../components/icons/emoji';
 import styled from 'styled-components';
 import { CategoryAlt } from '@styled-icons/boxicons-solid/CategoryAlt';
+import Test from '../../components/testComponent';
+
 const CatIcon = styled(CategoryAlt)`
   color: hotpink;
 `;

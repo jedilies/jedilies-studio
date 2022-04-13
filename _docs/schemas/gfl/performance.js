@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../components/emoji';
+import Icon from '../../components/icons/emoji';
 import client from 'part:@sanity/base/client';
 
 const sClient = client.withConfig({ apiVersion: '2022-04-01' });

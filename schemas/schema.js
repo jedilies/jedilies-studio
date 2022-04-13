@@ -5,18 +5,11 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 /* OBJECTS ---------------------------------------------- */
 import ptext from './objects/ptext';
 
-
-/* CLASSES ---------------------------------------------- */
-import category from './classes/category';
-import tag from './classes/tag';
-
-
 /* DOCUMENTS -------------------------------------------- */
+import category from './documents/category';
+import tag from './documents/tag';
 import article from './documents/article';
-
-
-/* MEDIA ------------------------------------------------ */
-import colors from './media/colors';
+import colors from './documents/colors';
 
 
 /* ------------------------------------------------------ */

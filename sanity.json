@@ -13,8 +13,6 @@
     "@sanity/default-login",
     "@sanity/desk-tool",
     "@sanity/vision",
-    "markdown",
-    "media-library",
     "@sanity/color-input"
   ],
   "env": {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../components/emoji';
+import Icon from '../../components/icons/emoji';
 import styled from 'styled-components';
 import { Tags } from '@styled-icons/bootstrap/Tags';
 const TagsIcon = styled(Tags)`

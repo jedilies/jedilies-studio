@@ -1,5 +1,5 @@
 import React from "react"
-import Icon from "../../components/emoji"
+import Icon from "../../components/icons/emoji"
 // import Colorcards from "../../components/Colorcards"
 
 export default {

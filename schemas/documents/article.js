@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../components/emoji';
+import Icon from '../../components/icons/emoji';
 import styled from 'styled-components';
 import { Documents } from '@styled-icons/ionicons-outline/Documents';
 const DocsIcon = styled(Documents)`
