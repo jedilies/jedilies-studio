@@ -1,8 +1,8 @@
-import React from "react"
-import Icon from "../../components/emoji"
-import client from 'part:@sanity/base/client'
+import React from 'react';
+import Icon from '../../components/emoji';
+import client from 'part:@sanity/base/client';
 
-const sClient = client.withConfig({ apiVersion: '2022-04-01' })
+const sClient = client.withConfig({ apiVersion: '2022-04-01' });
 
 export default {
   name: 'performance',
@@ -22,16 +22,16 @@ export default {
       type: 'datetime',
     },
     {
-      name: 'show', 
-      title: 'Show Ref', 
-      type: 'reference', 
-      to: {type: 'show'},
+      name: 'show',
+      title: 'Show Ref',
+      type: 'reference',
+      to: { type: 'show' },
     },
     {
-      name: 'venue', 
-      title: 'Venue Ref', 
-      type: 'reference', 
-      to: {type: 'venue'},
+      name: 'venue',
+      title: 'Venue Ref',
+      type: 'reference',
+      to: { type: 'venue' },
     },
     {
       name: 'slug',
@@ -44,20 +44,21 @@ export default {
           const queryVenue = '*[_type=="venue" && _id == $ref]{...}';
           const showInfo = { ref: document.show._ref };
           const venueInfo = { ref: document.venue._ref };
-          const showTitle = sClient.fetch(queryShow, showInfo).then(data => {
+          const showTitle = sClient.fetch(queryShow, showInfo).then((data) => {
             return data[0].title;
           });
-          const venueTitle = sClient.fetch(queryVenue, venueInfo).then(data => {
-            return data[0].title;
-          });
+          const venueTitle = sClient
+            .fetch(queryVenue, venueInfo)
+            .then((data) => {
+              return data[0].title;
+            });
           const result = `${showTitle}-${venueTitle}`;
-          return result
-        }
-      }
-    }
-  ]
-}
-
+          return result;
+        },
+      },
+    },
+  ],
+};
 
 /*
 - source: doc => `${doc.date}-${doc.title}` :: only doc fields, works

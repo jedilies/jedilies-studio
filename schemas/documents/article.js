@@ -1,10 +1,10 @@
-import React from 'react'
-import Icon from '../../components/emoji'
-import styled from 'styled-components'
-import {Documents} from '@styled-icons/ionicons-outline/Documents'
+import React from 'react';
+import Icon from '../../components/emoji';
+import styled from 'styled-components';
+import { Documents } from '@styled-icons/ionicons-outline/Documents';
 const DocsIcon = styled(Documents)`
   color: hotpink;
-`
+`;
 
 export default {
   name: 'article',
@@ -17,80 +17,82 @@ export default {
       title: 'title',
       slug: 'slug',
       summary: 'summary',
-      media: 'image'
+      media: 'image',
     },
-    prepare({title, summary, media}) {
+    prepare({ title, summary, media }) {
       return {
         title: title,
         subtitle: `${summary || ''}`,
-        media: media || <Icon e="📝" />
-      }
-    }
+        media: media || <Icon e="📝" />,
+      };
+    },
   },
   groups: [
-    {name:'properties', title: 'Properties', default: true },
-    {name:'media', title: 'Media' },
-    {name:'content', title: 'Content' },
+    { name: 'properties', title: 'Properties', default: true },
+    { name: 'media', title: 'Media' },
+    { name: 'content', title: 'Content' },
   ],
   fields: [
     {
-      name: 'title', 
-      title: 'Title', type: 
-      'string', 
+      name: 'title',
+      title: 'Title',
+      type: 'string',
       group: 'properties',
     },
     {
-      name: 'date', 
-      title: 'Date', 
-      type: 'datetime', 
+      name: 'date',
+      title: 'Date',
+      type: 'datetime',
       group: 'properties',
-      initialValue: (new Date()).toISOString()
+      initialValue: new Date().toISOString(),
     },
     {
-      name: 'slug', 
-      title: 'Slug', 
-      type: 'slug', 
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
       group: 'properties',
-      options: { source: 'title', maxLength: 96 }
+      options: { source: 'title', maxLength: 96 },
     },
     {
-      name: 'summary', 
-      title: 'Summary', 
-      type: 'string', 
+      name: 'summary',
+      title: 'Summary',
+      type: 'string',
       group: 'content',
     },
     {
-      name: 'image', 
-      type: 'image', 
-      title: 'Image', 
+      name: 'image',
+      type: 'image',
+      title: 'Image',
       group: 'media',
-      options: { hotspot: true }
+      options: { hotspot: true },
     },
     {
-      name: 'category', 
-      title: 'Category', 
-      type: 'reference', 
-      to: {type: 'category'},
+      name: 'category',
+      title: 'Category',
+      type: 'reference',
+      to: { type: 'category' },
       group: 'properties',
     },
     {
-      name: 'tags', 
-      title: 'Tags', 
-      type: 'array', 
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
       group: 'properties',
-      of: [{ 
-        type: 'reference', 
-        to: [{type:'tag'}] 
-      }],
+      of: [
+        {
+          type: 'reference',
+          to: [{ type: 'tag' }],
+        },
+      ],
       options: {
-        sortable: true
-      }
+        sortable: true,
+      },
     },
     {
-      name: 'body', 
-      title: 'Body', 
-      type: 'ptext', 
+      name: 'body',
+      title: 'Body',
+      type: 'ptext',
       group: 'content',
-    }
+    },
   ],
-}
+};

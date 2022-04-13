@@ -1,42 +1,34 @@
-import React from 'react'
-import Icon from '../../components/emoji'
-import styled from 'styled-components'
-import {
-  ColorSwatch
-} from '@styled-icons/heroicons-outline/ColorSwatch'
+import React from 'react';
+import Icon from '../../components/emoji';
+import styled from 'styled-components';
+import { ColorSwatch } from '@styled-icons/heroicons-outline/ColorSwatch';
 const ColorIcon = styled(ColorSwatch)`
   color: hotpink;
-`
+`;
 
 export default {
   name: 'colors',
   title: 'Colors',
   type: 'document',
   // liveEdit: true,
-  icon: () => < ColorIcon size = {
-    36
-  }
-  />,
+  icon: () => <ColorIcon size={36} />,
   preview: {
     select: {
       title: 'title',
       slug: 'slug',
       summary: 'summary',
-      media: 'image'
+      media: 'image',
     },
-    prepare({
-      title,
-      summary,
-      media
-    }) {
+    prepare({ title, summary, media }) {
       return {
         title: title,
         subtitle: `${summary || ''}`,
-        media: media || < Icon e = "📝" / >
-      }
-    }
+        media: media || <Icon e="📝" />,
+      };
+    },
   },
-  fields: [{
+  fields: [
+    {
       name: 'title',
       title: 'Title',
       type: 'string',
@@ -55,6 +47,6 @@ export default {
       name: 'notes',
       title: 'Notes',
       type: 'text',
-    }
+    },
   ],
-}
+};

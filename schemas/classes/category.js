@@ -1,10 +1,10 @@
-import React from "react"
-import Icon from "../../components/emoji"
-import styled from 'styled-components'
-import {CategoryAlt} from '@styled-icons/boxicons-solid/CategoryAlt'
+import React from 'react';
+import Icon from '../../components/emoji';
+import styled from 'styled-components';
+import { CategoryAlt } from '@styled-icons/boxicons-solid/CategoryAlt';
 const CatIcon = styled(CategoryAlt)`
   color: hotpink;
-`
+`;
 
 export default {
   name: 'category',
@@ -16,12 +16,12 @@ export default {
     select: {
       title: 'title',
     },
-    prepare({title}) {
+    prepare({ title }) {
       return {
         title: title,
-        media: <Icon e="🤷‍♀️"/>
-      }
-    }
+        media: <Icon e="🤷‍♀️" />,
+      };
+    },
   },
   fields: [
     {
@@ -33,6 +33,6 @@ export default {
       name: 'description',
       title: 'Description',
       type: 'text',
-    }
-  ]
-}
+    },
+  ],
+};

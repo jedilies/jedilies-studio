@@ -1,10 +1,10 @@
-import React from "react"
-import Icon from "../../components/emoji"
-import styled from 'styled-components'
-import {Tags} from '@styled-icons/bootstrap/Tags'
+import React from 'react';
+import Icon from '../../components/emoji';
+import styled from 'styled-components';
+import { Tags } from '@styled-icons/bootstrap/Tags';
 const TagsIcon = styled(Tags)`
   color: hotpink;
-`
+`;
 
 export default {
   name: 'tag',
@@ -17,28 +17,29 @@ export default {
       title: 'title',
       media: 'icon',
     },
-    prepare({title, media}) {
+    prepare({ title, media }) {
       return {
         title: title,
-        media: <Icon e={media} />
-      }
-    }
+        media: <Icon e={media} />,
+      };
+    },
   },
   fields: [
     {
       name: 'title',
       title: 'Tag Title',
       type: 'string',
-      validation: Rule => Rule.required().min(3).max(24).warning('Title length: 3-24 characters')
+      validation: (Rule) =>
+        Rule.required().min(3).max(24).warning('Title length: 3-24 characters'),
     },
     {
       name: 'icon',
       title: 'Icon',
       type: 'string',
       description: 'Optional emoji or text',
-      valdiation: Rule => Rule.max(1).warning('Single character or emoji as an icon.'),
-      initialValue: '🪆'
+      valdiation: (Rule) =>
+        Rule.max(1).warning('Single character or emoji as an icon.'),
+      initialValue: '🪆',
     },
-
-  ]
-}
+  ],
+};
