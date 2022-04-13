@@ -7,7 +7,7 @@ export default {
       title: 'Block',
       type: 'block',
       options: {
-        spellCheck: true,
+        spellCheck: false,
       },
       styles: [
         { title: 'Normal', value: 'normal' },
@@ -30,7 +30,7 @@ export default {
             type: 'object',
             fields: [
               { title: 'URL', name: 'href', type: 'url' },
-              { title: 'color', name: 'Color', type: 'color' },
+              // { title: 'color', name: 'Color', type: 'color' },
             ],
           },
         ],
