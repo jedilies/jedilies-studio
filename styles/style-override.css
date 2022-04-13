@@ -36,13 +36,15 @@
 }
 
 :root {
+  /* FONT */
+  --font-family-base: 'Poppins', sans-serif;
+  /* TYPOGRAPHY */
+  --text-color: var(--brand-secondary--inverted);
+  /* BRAND */
   --brand-primary: #ff00a4;
   --brand-primary--inverted: #ffffff;
   --brand-secondary: #000;
   --brand-secondary--inverted: #CBD6EE;
-  /* TYPOGRAPHY */
-  --font-family-base-serif: 'Poppins', sans-serif;
-  --text-color: var(--brand-secondary--inverted);
   /* NAVIGATION */
   --main-navigation-color: var(--brand-secondary);
   --main-navigation-color--inverted: var(--brand-secondary--inverted);

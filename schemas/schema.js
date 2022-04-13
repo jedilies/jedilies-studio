@@ -12,6 +12,9 @@ import tag from './classes/tag'
 /* DOCUMENTS ---------------------------------------------- */
 import article from './documents/article'
 
+/* MEDIA ---------------------------------------------- */
+import colors from './media/colors'
+
 /* BUILDER ---------------------------------------------- */
 export default createSchema({
   // schema name
@@ -21,6 +24,7 @@ export default createSchema({
 
     /* DOCUMENTS ---------------------------------------------- */
     article,
+    colors,
     category,
     tag,
     /* OBJECTS ---------------------------------------------- */

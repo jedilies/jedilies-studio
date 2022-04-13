@@ -1,14 +1,17 @@
 import React from "react"
 import Icon from "../../components/emoji"
-
-
+import styled from 'styled-components'
+import {Tags} from '@styled-icons/bootstrap/Tags'
+const TagsIcon = styled(Tags)`
+  color: hotpink;
+`
 
 export default {
   name: 'tag',
   title: 'Tag',
   type: 'document',
   liveEdit: true,
-  icon: () => <Icon e="⨾" />,
+  icon: () => <TagsIcon size={36} />,
   preview: {
     select: {
       title: 'title',

@@ -1,0 +1,11 @@
+source: https://styled-icons.dev/
+
+usage:
+```js
+import styled from 'styled-components'
+import {Zap} from '@styled-icons/octicons'
+const RedZap = styled(Zap)`
+  color: red;
+`
+const App = () => <RedZap />
+```

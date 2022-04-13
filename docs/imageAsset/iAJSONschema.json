@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/ImageAsset",
+  "definitions": {
+      "ImageAsset": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_createdAt": {
+                  "type": "string",
+                  "format": "date-time"
+              },
+              "_id": {
+                  "type": "string"
+              },
+              "_rev": {
+                  "type": "string"
+              },
+              "_type": {
+                  "type": "string"
+              },
+              "_updatedAt": {
+                  "type": "string",
+                  "format": "date-time"
+              },
+              "assetId": {
+                  "type": "string"
+              },
+              "extension": {
+                  "type": "string"
+              },
+              "metadata": {
+                  "$ref": "#/definitions/Metadata"
+              },
+              "mimeType": {
+                  "type": "string"
+              },
+              "originalFilename": {
+                  "type": "string"
+              },
+              "path": {
+                  "type": "string"
+              },
+              "sha1hash": {
+                  "type": "string"
+              },
+              "size": {
+                  "type": "integer"
+              },
+              "uploadId": {
+                  "type": "string"
+              },
+              "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "qt-uri-protocols": [
+                      "https"
+                  ],
+                  "qt-uri-extensions": [
+                      ".png"
+                  ]
+              }
+          },
+          "required": [
+              "_createdAt",
+              "_id",
+              "_rev",
+              "_type",
+              "_updatedAt",
+              "assetId",
+              "extension",
+              "metadata",
+              "mimeType",
+              "originalFilename",
+              "path",
+              "sha1hash",
+              "size",
+              "uploadId",
+              "url"
+          ],
+          "title": "ImageAsset"
+      },
+      "Metadata": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_type": {
+                  "type": "string"
+              },
+              "blurHash": {
+                  "type": "string"
+              },
+              "dimensions": {
+                  "$ref": "#/definitions/Dimensions"
+              },
+              "hasAlpha": {
+                  "type": "boolean"
+              },
+              "isOpaque": {
+                  "type": "boolean"
+              },
+              "lqip": {
+                  "type": "string"
+              },
+              "palette": {
+                  "$ref": "#/definitions/Palette"
+              }
+          },
+          "required": [
+              "_type",
+              "blurHash",
+              "dimensions",
+              "hasAlpha",
+              "isOpaque",
+              "lqip",
+              "palette"
+          ],
+          "title": "Metadata"
+      },
+      "Dimensions": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_type": {
+                  "type": "string"
+              },
+              "aspectRatio": {
+                  "type": "number"
+              },
+              "height": {
+                  "type": "integer"
+              },
+              "width": {
+                  "type": "integer"
+              }
+          },
+          "required": [
+              "_type",
+              "aspectRatio",
+              "height",
+              "width"
+          ],
+          "title": "Dimensions"
+      },
+      "Palette": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_type": {
+                  "type": "string"
+              },
+              "darkMuted": {
+                  "$ref": "#/definitions/DarkMuted"
+              },
+              "darkVibrant": {
+                  "$ref": "#/definitions/DarkMuted"
+              },
+              "dominant": {
+                  "$ref": "#/definitions/DarkMuted"
+              },
+              "lightMuted": {
+                  "$ref": "#/definitions/DarkMuted"
+              },
+              "lightVibrant": {
+                  "$ref": "#/definitions/DarkMuted"
+              },
+              "muted": {
+                  "$ref": "#/definitions/DarkMuted"
+              },
+              "vibrant": {
+                  "$ref": "#/definitions/DarkMuted"
+              }
+          },
+          "required": [
+              "_type",
+              "darkMuted",
+              "darkVibrant",
+              "dominant",
+              "lightMuted",
+              "lightVibrant",
+              "muted",
+              "vibrant"
+          ],
+          "title": "Palette"
+      },
+      "DarkMuted": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_type": {
+                  "type": "string"
+              },
+              "background": {
+                  "type": "string"
+              },
+              "foreground": {
+                  "type": "string"
+              },
+              "population": {
+                  "type": "number"
+              },
+              "title": {
+                  "type": "string"
+              }
+          },
+          "required": [
+              "_type",
+              "background",
+              "foreground",
+              "population",
+              "title"
+          ],
+          "title": "DarkMuted"
+      }
+  }
+}

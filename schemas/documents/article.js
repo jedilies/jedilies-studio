@@ -1,14 +1,17 @@
 import React from 'react'
 import Icon from '../../components/emoji'
-
-
+import styled from 'styled-components'
+import {Documents} from '@styled-icons/ionicons-outline/Documents'
+const DocsIcon = styled(Documents)`
+  color: hotpink;
+`
 
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
   liveEdit: true,
-  icon: () => <Icon e="📝" />,
+  icon: () => <DocsIcon size={36} />,
   preview: {
     select: {
       title: 'title',
