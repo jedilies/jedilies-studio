@@ -27,43 +27,33 @@ export default {
       };
     },
   },
-  groups: [
-    { name: 'properties', title: 'Properties', default: true },
-    { name: 'media', title: 'Media' },
-    { name: 'content', title: 'Content' },
-  ],
   fields: [
     {
       name: 'title',
       title: 'Title',
       type: 'string',
-      group: 'properties',
     },
     {
-      name: 'date',
-      title: 'Date',
+      name: 'publishDate',
+      title: 'Publish Date',
       type: 'datetime',
-      group: 'properties',
       initialValue: new Date().toISOString(),
     },
     {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
-      group: 'properties',
       options: { source: 'title', maxLength: 96 },
     },
     {
       name: 'summary',
       title: 'Summary',
       type: 'string',
-      group: 'content',
     },
     {
       name: 'image',
       type: 'image',
       title: 'Image',
-      group: 'media',
       options: { hotspot: true },
     },
     {
@@ -71,13 +61,11 @@ export default {
       title: 'Category',
       type: 'reference',
       to: { type: 'category' },
-      group: 'properties',
     },
     {
       name: 'tags',
       title: 'Tags',
       type: 'array',
-      group: 'properties',
       of: [
         {
           type: 'reference',
@@ -91,8 +79,7 @@ export default {
     {
       name: 'body',
       title: 'Body',
-      type: 'ptext',
-      group: 'content',
+      type: 'portableText',
     },
   ],
 };

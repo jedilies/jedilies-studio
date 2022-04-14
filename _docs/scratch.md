@@ -9,7 +9,7 @@ article
 colors
 category
 tag
-ptext
+portableText
 array
 block
 boolean

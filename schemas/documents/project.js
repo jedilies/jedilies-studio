@@ -1,18 +1,18 @@
 import React from 'react';
 // import Icon from '../../components/icons/emoji';
 import styled from 'styled-components';
-import { CategoryAlt } from '@styled-icons/boxicons-solid/CategoryAlt';
+import { ProjectDiagram } from '@styled-icons/fa-solid/ProjectDiagram';
 
-const CatIcon = styled(CategoryAlt)`
+const ProjectIcon = styled(ProjectDiagram)`
   color: hotpink;
 `;
 
 export default {
-  name: 'category',
-  title: 'Category',
+  name: 'project',
+  title: 'Projects',
   type: 'document',
   liveEdit: true,
-  icon: () => <CatIcon size={36} />,
+  icon: () => <ProjectIcon size={36} />,
   preview: {
     select: {
       title: 'title',
@@ -20,7 +20,7 @@ export default {
     prepare({ title }) {
       return {
         title: title,
-        media: () => <CatIcon size={24} />,
+        media: () => <ProjectIcon size={24} />,
       };
     },
   },

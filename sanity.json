@@ -13,11 +13,14 @@
     "@sanity/default-login",
     "@sanity/desk-tool",
     "@sanity/vision",
-    "@sanity/color-input"
+    "@sanity/color-input",
+    "media-library"
   ],
   "env": {
     "development": {
-      "plugins": ["@sanity/vision"]
+      "plugins": [
+        "@sanity/vision"
+      ]
     }
   },
   "parts": [
@@ -26,12 +29,20 @@
       "path": "./schemas/schema"
     },
     {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./config/structure/deskStructure.js"
+    },
+    {
       "implements": "part:@sanity/base/theme/variables/override-style",
       "path": "./styles/style-override.css"
     },
     {
       "implements": "part:@sanity/base/brand-logo",
-      "path": "./components/studio/logo.js"
+      "path": "./config/logo.js"
+    },
+    {
+      "implements": "part:@sanity/form-builder/input/image/asset-sources",
+      "path": "./plugins/assetSources.js"
     }
   ]
 }

@@ -38,7 +38,7 @@ export default {
     { name: 'summary', title: 'Summary', type: 'string',
     },
     {
-      name: 'body', title: 'Body', type: 'ptext'
+      name: 'body', title: 'Body', type: 'portableText'
     }
   ],
 }
