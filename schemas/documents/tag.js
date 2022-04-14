@@ -10,7 +10,7 @@ export default {
   name: 'tag',
   title: 'Tag',
   type: 'document',
-  liveEdit: true,
+  liveEdit: false,
   icon: () => <TagsIcon size={36} />,
   preview: {
     select: {

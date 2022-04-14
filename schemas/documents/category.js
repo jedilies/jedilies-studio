@@ -1,9 +1,9 @@
 import React from 'react';
 // import Icon from '../../components/icons/emoji';
 import styled from 'styled-components';
-import { CategoryAlt } from '@styled-icons/boxicons-solid/CategoryAlt';
+import { FolderOpen } from '@styled-icons/typicons/FolderOpen';
 
-const CatIcon = styled(CategoryAlt)`
+const CatIcon = styled(FolderOpen)`
   color: hotpink;
 `;
 
@@ -11,7 +11,7 @@ export default {
   name: 'category',
   title: 'Category',
   type: 'document',
-  liveEdit: true,
+  liveEdit: false,
   icon: () => <CatIcon size={36} />,
   preview: {
     select: {
@@ -34,6 +34,7 @@ export default {
       name: 'description',
       title: 'Description',
       type: 'text',
+      rows: 3,
     },
   ],
 };

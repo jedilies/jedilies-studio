@@ -1,5 +1,5 @@
 {
-  "name": "jedilies-studio",
+  "name": "jedilies",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -32,5 +32,11 @@
   "devDependencies": {
     "@sanity/cli": "^2.29.5"
   },
-  "keywords": []
+  "keywords": [
+    "sanity",
+    "cms",
+    "content",
+    "editor",
+    "development"
+  ]
 }

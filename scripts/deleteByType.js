@@ -1,10 +1,10 @@
-import client from 'part:@sanity/base/client'
-const sanityClient = client.withConfig({apiVersion: '2022-04-10'})
+import client from 'part:@sanity/base/client';
+const sanityClient = client.withConfig({ apiVersion: '2022-04-10' });
 
 sanityClient
-  .delete({query: '*[_type == "testDoc"][0...999]'})
+  .delete({ query: '*[_type == "testDoc"][0...999]' })
   .then(console.log)
-  .catch(console.error)
+  .catch(console.error);
 
 /**
  * THIS SCRIPT DELETES DATA!

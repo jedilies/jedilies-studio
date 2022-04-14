@@ -10,7 +10,7 @@ export default {
   name: 'article',
   title: 'Article',
   type: 'document',
-  liveEdit: true,
+  liveEdit: false,
   icon: () => <DocsIcon size={36} />,
   preview: {
     select: {
@@ -51,12 +51,6 @@ export default {
       type: 'string',
     },
     {
-      name: 'image',
-      type: 'image',
-      title: 'Image',
-      options: { hotspot: true },
-    },
-    {
       name: 'category',
       title: 'Category',
       type: 'reference',
@@ -75,6 +69,12 @@ export default {
       options: {
         sortable: true,
       },
+    },
+    {
+      name: 'image',
+      type: 'image',
+      title: 'Image',
+      options: { hotspot: true },
     },
     {
       name: 'body',

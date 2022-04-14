@@ -10,16 +10,15 @@ import category from './documents/category';
 import tag from './documents/tag';
 import project from './documents/project';
 import article from './documents/article';
-import colors from './documents/colors';
+
 
 
 /* ------------------------------------------------------ */
 export default createSchema({
   name: 'default',
   types: schemaTypes.concat([
-    project,
     article,
-    colors,
+    project,
     category,
     tag,
     portableText,
