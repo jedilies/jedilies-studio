@@ -16,18 +16,24 @@ export default {
     select: {
       title: 'title',
       slug: 'slug',
-      summary: 'summary',
+      summary: 'project.title',
       media: 'image',
     },
     prepare({ title, summary, media }) {
       return {
         title: title,
-        subtitle: `${summary || ''}`,
+        subtitle: `Project: ${summary || 'NA'}`,
         media: media || <Icon e="📝" />,
       };
     },
   },
   fields: [
+    {
+      name: 'project',
+      title: 'Project',
+      type: 'reference',
+      to: { type: 'project' },
+    },
     {
       name: 'title',
       title: 'Title',
@@ -51,19 +57,13 @@ export default {
       type: 'string',
     },
     {
-      name: 'category',
-      title: 'Category',
-      type: 'reference',
-      to: { type: 'category' },
-    },
-    {
-      name: 'tags',
-      title: 'Tags',
+      name: 'categories',
+      title: 'Categories',
       type: 'array',
       of: [
         {
           type: 'reference',
-          to: [{ type: 'tag' }],
+          to: [{ type: 'category' }],
         },
       ],
       options: {

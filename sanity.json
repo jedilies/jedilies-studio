@@ -3,6 +3,25 @@
   "project": {
     "name": "jedilies"
   },
+  "__experimental_spaces": [
+    {
+      "name": "prod",
+      "title": "Production",
+      "default": true,
+      "api": {
+        "projectId": "hz6n859k",
+        "dataset": "production"
+      }
+    },
+    {
+      "name": "dev",
+      "title": "Development",
+      "api": {
+        "projectId": "hz6n859k",
+        "dataset": "development"
+      }
+    }
+  ],
   "api": {
     "projectId": "hz6n859k",
     "dataset": "production"
@@ -30,7 +49,7 @@
     },
     {
       "name": "part:@sanity/desk-tool/structure",
-      "path": "./config/structure/deskStructure.js"
+      "path": "./structure/deskStructure.js"
     },
     {
       "implements": "part:@sanity/base/theme/variables/override-style",

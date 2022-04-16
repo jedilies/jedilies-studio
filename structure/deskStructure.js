@@ -13,7 +13,3 @@ export default () =>
     .items(
       S.documentTypeListItems()
     )
-
-/*
-
-*/
