@@ -11,16 +11,8 @@ import tag from './documents/tag';
 import project from './documents/project';
 import article from './documents/article';
 
-
-
 /* ------------------------------------------------------ */
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat([
-    article,
-    project,
-    category,
-    tag,
-    portableText,
-  ]),
+  types: schemaTypes.concat([article, project, category, tag, portableText]),
 });
