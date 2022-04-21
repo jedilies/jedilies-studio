@@ -1,15 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
 
-const Icon = ({e}) =>
-  typeof e === 'string' ? (
-    <span style={{fontSize: '1.5rem'}}>{e}</span>
+const Emoji = ({ emo, size }) =>
+  typeof emo === "string" ? (
+    <span style={{ fontSize: size }}>{emo}</span>
   ) : (
-    <span style={{fontSize: '1.5rem'}}></span>
-  )
+    <span style={{ fontSize: size }}></span>
+  );
 
-Icon.propTypes = {
-  e: PropTypes.string.isRequired
-}
+Emoji.propTypes = {
+  emo: PropTypes.string.isRequired,
+  size: PropTypes.string
+};
 
-export default Icon
+export default Emoji;
