@@ -1,16 +1,16 @@
 import client from 'part:@sanity/base/client';
 const sanityClient = client.withConfig({
   apiVersion: '2022-04-10',
-  dataset: 'category',
+  dataset: 'production',
 });
 
 sanityClient
-  .delete({ query: '*[_type == "article"][0...999]' })
+  .delete({ query: '*[_type != match("sanity.**")][0...999]' })
   .then(console.log)
   .catch(console.error);
 
 /**
- * sanity exec scripts/deleteByType.js --with-user-token
+ * sanity exec scripts/nukeit.js --with-user-token
  *
  * THIS SCRIPT DELETES DATA!
  *
