@@ -8,7 +8,7 @@ export default {
       title: 'Block',
       type: 'block',
       options: {
-        spellCheck: false,
+        spellCheck: true,
       },
       styles: [
         { title: 'Normal', value: 'normal' },
@@ -24,14 +24,21 @@ export default {
           { title: 'Strong', value: 'strong' },
           { title: 'Emphasis', value: 'em' },
         ],
+        // note: how to add multiple annotations and get them to render on the page?
         annotations: [
           {
-            title: 'URL',
+            title: 'Link: URL',
             name: 'link',
             type: 'object',
             fields: [
-              { title: 'URL', name: 'href', type: 'url' },
-              // { title: 'color', name: 'Color', type: 'color' },
+              {
+                title: 'URL',
+                name: 'href',
+                type: 'url',
+                validation: Rule => Rule.uri({
+                  allowRelative: true,
+                })
+              },
             ],
           },
         ],

@@ -1260,10 +1260,10 @@
     get-random-values "^1.2.2"
     lodash "^4.17.15"
 
-"@sanity/cli@^2.29.5":
-  version "2.29.5"
-  resolved "https://registry.npmjs.org/@sanity/cli/-/cli-2.29.5.tgz#694aa11c6604b4eb7a0db222d5536c07739f214b"
-  integrity sha512-wAe9JOMWaClnJIE/TkJ06Fbbaln+/bvLCPU05ya3bU3CaK9uscH6f31kh4GunDZicMNSG9Hd8hVk/MqX0kkYYQ==
+"@sanity/cli@^2.29.6":
+  version "2.29.6"
+  resolved "https://registry.npmjs.org/@sanity/cli/-/cli-2.29.6.tgz#4b92c4719841531ab0dff7a267f608ffe97fcc16"
+  integrity sha512-tpMm8t4olNRKX2UaPH5JlMcab/QI9XpylMpGoyDbhd9SgdDyHZJOyq96kr0KYUoTHfRLTeNZOg1TbDGFx6SPIQ==
 
 "@sanity/client@^3.2.0":
   version "3.3.0"
@@ -1403,17 +1403,17 @@
     prop-types "^15.6.0"
     rxjs "^6.5.3"
 
-"@sanity/desk-tool@^2.29.5":
-  version "2.29.5"
-  resolved "https://registry.npmjs.org/@sanity/desk-tool/-/desk-tool-2.29.5.tgz#fce65085e17b54dc1b47c9b0a04a606da794ece3"
-  integrity sha512-+147lzN0NzoyerG01Zg0SFIolb6PWtdupODhOyPz8bu86dE31aKTbxPGzqLYVtovRivb/KHGueJoVMgczWaDAQ==
+"@sanity/desk-tool@^2.29.6":
+  version "2.29.6"
+  resolved "https://registry.npmjs.org/@sanity/desk-tool/-/desk-tool-2.29.6.tgz#14c632914be977539e9d749aadf7894a4d19f786"
+  integrity sha512-KFKnUCfv9TXXZ7oib9GKZAIlgIJWdg3CbXrL04nByeTK86EaqzhwsOyI+VBsOu7gWqRvLCXpMAbmbd+3ZFvVog==
   dependencies:
     "@reach/auto-id" "^0.13.2"
     "@sanity/client" "^3.2.0"
     "@sanity/data-aspects" "2.29.3"
     "@sanity/diff" "2.29.3"
     "@sanity/field" "2.29.5"
-    "@sanity/form-builder" "2.29.5"
+    "@sanity/form-builder" "2.29.6"
     "@sanity/generate-help-url" "^3.0.0"
     "@sanity/icons" "^1.2.6"
     "@sanity/react-hooks" "2.29.5"
@@ -1502,10 +1502,10 @@
     lodash "^4.17.15"
     sanity-diff-patch "^1.0.9"
 
-"@sanity/form-builder@2.29.5":
-  version "2.29.5"
-  resolved "https://registry.npmjs.org/@sanity/form-builder/-/form-builder-2.29.5.tgz#0b4bdc2e5be5d9ed135111ce5427ee084e52ac40"
-  integrity sha512-2bQoYnrwIQmGVFJrxZq2BVBKDpA1y3zk3KDXjzV79CKIxpyr1c2C7YNt2NsdpEY9UbHD46GXsTfcFLtB/uZw8A==
+"@sanity/form-builder@2.29.6":
+  version "2.29.6"
+  resolved "https://registry.npmjs.org/@sanity/form-builder/-/form-builder-2.29.6.tgz#968834124124a5e9bafcf5491d69839a6da5ef8a"
+  integrity sha512-mPMXTjT0W91fW0peW5AYIE5NMGbxpjm5NkS/IT4qjejhzMI0M9fXWZxnb9EhFZVirDvQ7T2+RbOWzLZOpAtuRg==
   dependencies:
     "@reach/auto-id" "^0.13.2"
     "@sanity/base" "2.29.5"
@@ -7070,7 +7070,14 @@ mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.6"
 
-moment@^2.19.1:
+moment-timezone@^0.5.34:
+  version "0.5.34"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.34.tgz#a75938f7476b88f155d3504a9343f7519d9a405c"
+  integrity sha512-3zAEHh2hKUs3EXLESx/wsgw6IQdusOT8Bxm3D9UrHPQR7zlMmzwybC8zHEM1tQ4LJwP7fcxrWr8tuBg05fFCbg==
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@^2.19.1:
   version "2.29.3"
   resolved "https://registry.npmjs.org/moment/-/moment-2.29.3.tgz#edd47411c322413999f7a5940d526de183c031f3"
   integrity sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw==
@@ -8778,6 +8785,13 @@ react-copy-to-clipboard@^5.0.4:
   dependencies:
     copy-to-clipboard "^3.3.1"
     prop-types "^15.8.1"
+
+react-datetime@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/react-datetime/-/react-datetime-3.1.1.tgz#adc346efda47653cfff9259c979f03f56106e48c"
+  integrity sha512-gHCTjAniCcMb6jdXpz+MpVe/uCeaHNDOofg+l41nLlJI3uBLBMV40CQbGB2TCTUpCzGT1mCs4vQzKGMjXO/WWQ==
+  dependencies:
+    prop-types "^15.5.7"
 
 react-dom@^17.0:
   version "17.0.2"
