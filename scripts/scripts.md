@@ -4,6 +4,7 @@ ref: https://www.sanity.io/schemas/delete-documents-by-filter-698e1f26
 sanity exec scripts/deleteByType.js --with-user-token
 ```
 
+```js
 /**
  * THIS SCRIPT DELETES DATA!
  *
@@ -16,3 +17,4 @@ sanity exec scripts/deleteByType.js --with-user-token
  * NOTE: For the time being you should not delete more than ~1000 documents in one transaction. This will change in the future.
  * See docs:https://www.sanity.io/docs/http-api/http-mutations#deleting-multiple-documents-by-query
  */
+ ```
