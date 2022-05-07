@@ -1,6 +1,7 @@
 // schema creator
 import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
+import richDate from 'part:@sanity/form-builder/input/rich-date/schema'
 
 /* OBJECTS ---------------------------------------------- */
 import portableText from './objects/portableText';
@@ -26,6 +27,7 @@ export default createSchema({
     timeDoc,
     blockInputs,
     // OBJECTS //
+    richDate,
     portableText,
     ptAlt,
   ]),

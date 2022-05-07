@@ -1,12 +1,15 @@
 import React from 'react';
+
 import styled from 'styled-components';
-import DateTimeHTML from '../../components/inputs/DateTimeHTML';
-import DateTimeRTC from '../../components/inputs/DateTimeRTC';
-import DateTimeSUI from '../../components/inputs/DateTimeSUI';
 import { ClockFill } from '@styled-icons/bootstrap/ClockFill';
 const Clock = styled(ClockFill)`
   color: hotpink;
 `;
+
+import client from 'part:@sanity/base/client'
+const sanityClient = client.withConfig({ apiVersion: '2022-04-01' })
+
+
 
 export default {
   name: 'timeDoc',
@@ -21,34 +24,35 @@ export default {
       type: 'string',
     },
     {
-      name: 'dateTime',
-      title: 'DateTime - Standard',
+      name: 'date',
+      title: 'DateTime - Input',
+      description: 'Set time to desired local time',
       type: 'datetime',
       initialValue: new Date().toISOString(),
     },
     {
-      name: 'date',
-      title: 'Date - Standard',
-      type: 'date',
-      initialValue: new Date().toISOString(),
+      name: 'UTCstring',
+      title: 'UTC String',
+      description: 'UTC ISO time string, matches query result',
+      type: 'slug',
+      options: {
+        source: 'date',
+        slugify: input => input
+      }
     },
     {
-      name: 'timehtml',
-      title: 'DateTime HTML Input',
-      type: 'string',
-      inputComponent: DateTimeHTML,
+      name: 'MDTreadable',
+      title: 'MDT Readable String',
+      type: 'slug',
+      options: {
+        source: 'date',
+        slugify: input => input
+      }
     },
-    // {
-    //   name: 'timertc',
-    //   title: 'DateTime React Time Component Input',
-    //   type: 'string',
-    //   inputComponent: DateTimeRTC,
-    // },
     {
-      name: 'timesui',
-      title: 'DateTime Sanity UI Custom Input',
-      type: 'string',
-      inputComponent: DateTimeSUI,
-    },
+      name: 'richdate',
+      title: 'Rich Date',
+      type: 'richDate',
+    }
   ],
 };
