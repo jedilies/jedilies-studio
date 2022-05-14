@@ -9,7 +9,10 @@
   "scripts": {
     "start": "sanity start",
     "build": "sanity build",
-    "upgrade": "sanity upgrade"
+    "upgrade": "sanity upgrade",
+    "test": "sanity test",
+    "debug": "sanity debug",
+    "analyze": "sanity build --stats --profile --no-minify && npx webpack-bundle-analyzer build-stats.json"
   },
   "dependencies": {
     "@editorjs/editorjs": "^2.24.3",
@@ -30,7 +33,12 @@
     "react": "^17.0",
     "react-dom": "^17.0",
     "react-timepicker": "^2.0.2",
+    "sanity-plugin-asset-source-giphy": "^0.0.12",
+    "sanity-plugin-asset-source-unsplash": "^0.2.1",
+    "sanity-plugin-color-list": "^2.0.2",
+    "sanity-plugin-content-calendar": "^1.2.5",
     "sanity-plugin-media-library": "^2.0.2",
+    "sanity-plugin-url-metadata-input": "^1.1.0",
     "styled-components": "^5.2.0",
     "styled-icons": "^10.45.0"
   },

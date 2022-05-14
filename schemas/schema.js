@@ -1,16 +1,17 @@
-// schema creator
 import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
-/* ---------------------------------------------- */
 import portableText from './objects/portableText';
-import ptObj from './objects/ptObj';
-import article from './documents/article';
+import project from './categories/project';
+import post from './documents/post';
+import author from './categories/author';
 
+const schemaObjs = [portableText];
+const schemaCats = [project, author];
+const schemaDocs = [post];
 
-const schemaObjs = [portableText, ptObj,];
-const schmaDocs = [article,]
+const schemaItems = [...schemaObjs, ...schemaCats, ...schemaDocs]
 
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat(schemaObjs, schmaDocs),
+  types: schemaTypes.concat(...schemaItems),
 });

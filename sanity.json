@@ -35,7 +35,12 @@
     "@sanity/color-input",
     "media-library",
     "@sanity/rich-date-input",
-    "@sanity/code-input"
+    "@sanity/code-input",
+    "content-calendar",
+    "asset-source-unsplash",
+    "url-metadata-input",
+    "color-list",
+    "asset-source-giphy"
   ],
   "env": {
     "development": {
@@ -51,7 +56,7 @@
     },
     {
       "name": "part:@sanity/desk-tool/structure",
-      "path": "./structure/deskStructure.js"
+      "path": "./structure/deskStructure"
     },
     {
       "implements": "part:@sanity/base/theme/variables/override-style",
@@ -59,11 +64,11 @@
     },
     {
       "implements": "part:@sanity/base/brand-logo",
-      "path": "./config/logo.js"
+      "path": "./components/logo"
     },
     {
       "implements": "part:@sanity/form-builder/input/image/asset-sources",
-      "path": "./plugins/assetSources.js"
+      "path": "./plugins/assetSources"
     }
   ]
 }
