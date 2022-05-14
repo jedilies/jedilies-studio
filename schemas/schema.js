@@ -1,34 +1,16 @@
 // schema creator
 import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
-import richDate from 'part:@sanity/form-builder/input/rich-date/schema'
-
-/* OBJECTS ---------------------------------------------- */
+/* ---------------------------------------------- */
 import portableText from './objects/portableText';
-
-/* DOCUMENTS -------------------------------------------- */
-import category from './documents/category';
-import project from './documents/project';
+import ptObj from './objects/ptObj';
 import article from './documents/article';
 
-/* TEST ------------------------------------------------- */
-import ptAlt from './test/ptAlt';
-import timeDoc from './test/timeDoc';
-import blockInputs from './test/blockInputs';
 
+const schemaObjs = [portableText, ptObj,];
+const schmaDocs = [article,]
 
-/* ------------------------------------------------------ */
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat([
-    article,
-    project,
-    category,
-    timeDoc,
-    blockInputs,
-    // OBJECTS //
-    richDate,
-    portableText,
-    ptAlt,
-  ]),
+  types: schemaTypes.concat(schemaObjs, schmaDocs),
 });

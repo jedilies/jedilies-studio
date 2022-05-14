@@ -34,7 +34,8 @@
     "@sanity/vision",
     "@sanity/color-input",
     "media-library",
-    "@sanity/rich-date-input"
+    "@sanity/rich-date-input",
+    "@sanity/code-input"
   ],
   "env": {
     "development": {

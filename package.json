@@ -12,16 +12,18 @@
     "upgrade": "sanity upgrade"
   },
   "dependencies": {
-    "@sanity/base": "^2.29.8",
-    "@sanity/color-input": "^2.29.8",
-    "@sanity/core": "^2.29.5",
-    "@sanity/default-layout": "^2.29.8",
-    "@sanity/default-login": "^2.29.8",
-    "@sanity/desk-tool": "^2.29.8",
+    "@editorjs/editorjs": "^2.24.3",
+    "@sanity/base": "^2.30.0",
+    "@sanity/code-input": "^2.30.0",
+    "@sanity/color-input": "^2.30.0",
+    "@sanity/core": "^2.30.0",
+    "@sanity/default-layout": "^2.30.0",
+    "@sanity/default-login": "^2.30.0",
+    "@sanity/desk-tool": "^2.30.0",
     "@sanity/eslint-config-studio": "^2.0.0",
     "@sanity/rich-date-input": "^2.0.9",
     "@sanity/types": "^2.29.5",
-    "@sanity/vision": "^2.29.8",
+    "@sanity/vision": "^2.30.0",
     "eslint": "^8.6.0",
     "lodash": "^4.17.21",
     "prop-types": "^15.7",
@@ -33,7 +35,7 @@
     "styled-icons": "^10.45.0"
   },
   "devDependencies": {
-    "@sanity/cli": "^2.29.8"
+    "@sanity/cli": "^2.30.0"
   },
   "keywords": [
     "sanity",

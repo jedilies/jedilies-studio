@@ -1,85 +1,49 @@
-import React from 'react';
-import Icon from '../../components/icons/emoji';
-import styled from 'styled-components';
-import { Documents } from '@styled-icons/ionicons-outline/Documents';
-const DocsIcon = styled(Documents)`
-  color: hotpink;
-`;
-
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
-  liveEdit: false,
-  icon: () => <DocsIcon size={36} />,
-  preview: {
-    select: {
-      title: 'title',
-      slug: 'slug',
-      summary: 'project.title',
-      media: 'image',
-    },
-    prepare({ title, summary, media }) {
-      return {
-        title: title,
-        subtitle: `Project: ${summary || 'NA'}`,
-        media: media || <Icon e="📝" />,
-      };
-    },
-  },
   fields: [
-    {
-      name: 'project',
-      title: 'Project',
-      type: 'reference',
-      to: { type: 'project' },
-    },
     {
       name: 'title',
       title: 'Title',
       type: 'string',
     },
     {
-      name: 'publishDate',
-      title: 'Publish Date',
-      type: 'datetime',
-      initialValue: new Date().toISOString(),
-    },
-    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
-      options: { source: 'title', maxLength: 96 },
-    },
-    {
-      name: 'summary',
-      title: 'Summary',
-      type: 'string',
-    },
-    {
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          to: [{ type: 'category' }],
-        },
-      ],
       options: {
-        sortable: true,
+        source: 'title',
+        maxLength: 96,
       },
     },
     {
-      name: 'image',
-      type: 'image',
-      title: 'Image',
-      options: { hotspot: true },
+      title: 'Text',
+      name: 'text',
+      type: 'array',
+      of: [{ type: 'block' }],
     },
     {
-      name: 'body',
-      title: 'Body',
-      type: 'portableText',
+      name: 'content',
+      title: 'Content',
+      type: 'array',
+      of: [
+        {
+          name: 'image',
+          title: 'Image',
+          type: 'image',
+        },
+        {
+          name: 'color',
+          title: 'Color',
+          type: 'color',
+        },
+        {
+          name: 'code',
+          title: 'Code',
+          type: 'code',
+        },
+      ],
     },
   ],
 };

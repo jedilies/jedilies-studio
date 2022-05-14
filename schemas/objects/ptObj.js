@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 export default {
-  title: 'Portable Text',
-  name: 'portableText',
-  type: 'array',
-  of: [
+  title: 'Portable Text Object',
+  name: 'ptObj',
+  type: 'object',
+  fields: [
     {
+      name: 'block',
       title: 'Block',
       type: 'block',
       options: {
@@ -44,7 +45,5 @@ export default {
         ],
       },
     },
-    /* adtnl types */
-    { type: 'image', hotspot: true },
-  ],
+  ]
 };
