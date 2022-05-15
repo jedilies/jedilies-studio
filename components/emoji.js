@@ -14,3 +14,4 @@ Emoji.propTypes = {
 };
 
 export default Emoji;
+

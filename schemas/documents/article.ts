@@ -1,6 +1,9 @@
+
+
+
 export default {
-  name: 'post',
-  title: 'Post',
+  name: 'article',
+  title: 'Article',
   type: 'document',
   preview: {
     select: {
@@ -9,8 +12,8 @@ export default {
       media: 'mainImage',
     },
     prepare(selection: { author: any }) {
-      const {author} = selection
-      return {...selection, subtitle: author && `by ${author}`}
+      const { author } = selection;
+      return { ...selection, subtitle: author && `by ${author}` };
     },
   },
   fields: [
@@ -18,6 +21,13 @@ export default {
       name: 'title',
       title: 'Title',
       type: 'string',
+    },
+    {
+      name: 'published',
+      title: 'Published',
+      type: 'boolean',
+      initialValue: false,
+      options: {layout: 'checkbox'}
     },
     {
       name: 'slug',
@@ -32,7 +42,20 @@ export default {
       name: 'author',
       title: 'Author',
       type: 'reference',
-      to: {type: 'author'},
+      to: { type: 'author', weak: true },
+      options: { disableNew: true },
+    },
+    {
+      name: 'projects',
+      title: 'Projects',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: { type: 'project', weak: true },
+          options: { disableNew: true },
+        },
+      ],
     },
     {
       name: 'image',
@@ -43,20 +66,9 @@ export default {
       },
     },
     {
-      name: 'projects',
-      title: 'Projects',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'project'}}],
-    },
-    {
-      name: 'publishedAt',
-      title: 'Published at',
-      type: 'datetime',
-    },
-    {
       name: 'body',
       title: 'Body',
       type: 'portableText',
     },
-  ]
-}
+  ],
+};

@@ -9,15 +9,6 @@ export default {
       type: 'string',
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      options: {
-        source: 'name',
-        maxLength: 96,
-      },
-    },
-    {
       name: 'image',
       title: 'Image',
       type: 'image',
@@ -26,18 +17,17 @@ export default {
       },
     },
     {
-      name: 'bio',
-      title: 'Bio',
-      type: 'array',
-      of: [
-        {
-          title: 'Block',
-          type: 'block',
-          styles: [{title: 'Normal', value: 'normal'}],
-          lists: [],
-        },
-      ],
+      name: 'summary',
+      title: 'Summary',
+      type: 'text',
+      rows: 3,
     },
+    {
+      name: 'projects',
+      title: 'Projects',
+      type: 'array',
+      of: [{type: 'reference', to: {type: 'project'}}],
+    }
   ],
   preview: {
     select: {
