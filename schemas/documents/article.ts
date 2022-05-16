@@ -70,5 +70,11 @@ export default {
       title: 'Body',
       type: 'portableText',
     },
+    {
+      name: 'mdbody',
+      title: 'Body(Markdown)',
+      type: 'markdown',
+      lines: 20,
+    }
   ],
 };

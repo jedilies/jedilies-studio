@@ -40,7 +40,8 @@
     "asset-source-unsplash",
     "url-metadata-input",
     "color-list",
-    "asset-source-giphy"
+    "asset-source-giphy",
+    "markdown"
   ],
   "env": {
     "development": {
@@ -69,6 +70,10 @@
     {
       "implements": "part:@sanity/form-builder/input/image/asset-sources",
       "path": "./plugins/assetSources"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "./plugins/dashboardConfig"
     }
   ]
 }

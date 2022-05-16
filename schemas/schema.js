@@ -1,9 +1,9 @@
 import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 import portableText from './objects/portableText';
-import project from './sort/project';
+import project from './documents/project';
 import article from './documents/article';
-import author from './sort/author';
+import author from './documents/author';
 
 
 const schemaObjs = [portableText];

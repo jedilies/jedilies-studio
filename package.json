@@ -37,6 +37,7 @@
     "sanity-plugin-asset-source-giphy": "^0.0.12",
     "sanity-plugin-asset-source-unsplash": "^0.2.1",
     "sanity-plugin-color-list": "^2.0.2",
+    "sanity-plugin-markdown": "^2.1.1",
     "sanity-plugin-media-library": "^2.0.2",
     "sanity-plugin-url-metadata-input": "^1.1.0",
     "styled-components": "^5.2.0",
