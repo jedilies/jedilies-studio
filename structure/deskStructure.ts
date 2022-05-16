@@ -1,13 +1,13 @@
 import S from '@sanity/desk-tool/structure-builder';
-import listAuthor from './listAuthor';
 import listEverything from './listEverything';
+// import listProjects from './listProjects';
 
 export default () =>
   S.list()
     .title('JEDILIES')
     .items([
-      // listAuthor,
-      S.divider(),
+      // listProjects,
+      // S.divider(),
       listEverything,
     ]);
 

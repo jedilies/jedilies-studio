@@ -1,13 +1,13 @@
 import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 import portableText from './objects/portableText';
-import project from './documents/project';
+import category from './documents/category';
 import article from './documents/article';
 import author from './documents/author';
 
 
 const schemaObjs = [portableText];
-const schemaDocs = [project, author, article].map(
+const schemaDocs = [category, author, article].map(
   // global liveEdit switch or global doc constants
   obj => (obj.liveEdit = true) && obj
 )

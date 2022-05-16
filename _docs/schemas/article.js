@@ -12,21 +12,6 @@ export default {
   type: 'document',
   liveEdit: false,
   icon: () => <DocsIcon size={36} />,
-  preview: {
-    select: {
-      title: 'title',
-      slug: 'slug',
-      summary: 'project.title',
-      media: 'image',
-    },
-    prepare({ title, summary, media }) {
-      return {
-        title: title,
-        subtitle: `Project: ${summary || 'NA'}`,
-        media: media || <Icon e="📝" />,
-      };
-    },
-  },
   fields: [
     {
       name: 'project',

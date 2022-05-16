@@ -1,33 +1,34 @@
-
-
-
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
-  preview: {
-    select: {
-      title: 'title',
-      author: 'author.name',
-      media: 'mainImage',
-    },
-    prepare(selection: { author: any }) {
-      const { author } = selection;
-      return { ...selection, subtitle: author && `by ${author}` };
-    },
-  },
+  // preview: {
+  //   select: {
+  //     title: 'title',
+  //     category: 'category.title',
+  //     media: 'mainImage',
+  //   },
+  //   prepare(selection: { category: any }) {
+  //     const { category } = selection;
+  //     return {
+  //       ...selection,
+  //       subtitle: category && `${category}`,
+  //     };
+  //   },
+  // },
   fields: [
     {
       name: 'title',
       title: 'Title',
       type: 'string',
+      validation: (Rule) => Rule.required(),
     },
     {
       name: 'published',
       title: 'Published',
       type: 'boolean',
       initialValue: false,
-      options: {layout: 'checkbox'}
+      options: { layout: 'checkbox' },
     },
     {
       name: 'slug',
@@ -46,13 +47,13 @@ export default {
       options: { disableNew: true },
     },
     {
-      name: 'projects',
-      title: 'Projects',
+      name: 'categories',
+      title: 'Categories',
       type: 'array',
       of: [
         {
           type: 'reference',
-          to: { type: 'project', weak: true },
+          to: { type: 'category', weak: true },
           options: { disableNew: true },
         },
       ],
@@ -75,6 +76,6 @@ export default {
       title: 'Body(Markdown)',
       type: 'markdown',
       lines: 20,
-    }
+    },
   ],
 };

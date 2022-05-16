@@ -23,10 +23,10 @@ export default {
       rows: 3,
     },
     {
-      name: 'projects',
-      title: 'Projects',
+      name: 'categories',
+      title: 'Categories',
       type: 'array',
-      of: [{type: 'reference', to: {type: 'project'}}],
+      of: [{type: 'reference', to: {type: 'category'}}],
     }
   ],
   preview: {
