@@ -2,20 +2,20 @@ export default {
   name: 'article',
   title: 'Article',
   type: 'document',
-  // preview: {
-  //   select: {
-  //     title: 'title',
-  //     category: 'category.title',
-  //     media: 'mainImage',
-  //   },
-  //   prepare(selection: { category: any }) {
-  //     const { category } = selection;
-  //     return {
-  //       ...selection,
-  //       subtitle: category && `${category}`,
-  //     };
-  //   },
-  // },
+  preview: {
+    select: {
+      title: 'title',
+      category: 'category.title',
+      media: 'mainImage',
+    },
+    prepare(selection: { category: any }) {
+      const { category } = selection;
+      return {
+        ...selection,
+        subtitle: category && `${category}`,
+      };
+    },
+  },
   fields: [
     {
       name: 'title',
