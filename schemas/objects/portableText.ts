@@ -19,7 +19,6 @@ export default {
       lists: [{ title: 'Bullet', value: 'bullet' }],
       marks: {
         decorators: [
-          { title: 'H1', value: 'h2' },
           { title: 'Strong', value: 'strong' },
           { title: 'Emphasis', value: 'em' }
         ],
