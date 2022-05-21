@@ -12,6 +12,7 @@
     "upgrade": "sanity upgrade",
     "test": "sanity test",
     "debug": "sanity debug",
+    "deploy": "sanity deploy",
     "analyze": "sanity build --stats --profile --no-minify && npx webpack-bundle-analyzer build-stats.json"
   },
   "dependencies": {

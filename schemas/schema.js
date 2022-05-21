@@ -2,6 +2,7 @@ import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 // Objects
 import portableText from './objects/portableText';
+import codeblock from './objects/codeblock';
 // Documents
 import category from './documents/category';
 import article from './documents/article';
@@ -10,10 +11,10 @@ import author from './documents/author';
 import imgArray from './test/imgArray';
 
 
-const schemaObjs = [portableText];
-const schemaDocs = [author, article, category].map(
-  obj => (obj.liveEdit = true) && obj // <-- set liveEdit true/flase for all docs
-)
+const schemaObjs = [portableText, codeblock];
+const schemaDocs = [author, article, category]//.map(
+//   obj => (obj.liveEdit = false) && obj // <-- set liveEdit true/flase for all docs
+// )
 const testDocs = [imgArray];
 
 const schemaItems = [...schemaObjs, ...schemaDocs, ...testDocs];

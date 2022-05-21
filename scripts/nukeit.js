@@ -1,11 +1,16 @@
 import client from 'part:@sanity/base/client';
 const sanityClient = client.withConfig({
   apiVersion: '2022-04-10',
-  dataset: 'production',
+  dataset: 'development'
 });
 
 sanityClient
-  .delete({ query: '*[_type != match("sanity.**")][0...999]' })
+  .delete({
+    query: /* groq */ `*[
+    !(_type match "system.*") &&
+    !(_type match "sanity.*")
+  ]`
+  })
   .then(console.log)
   .catch(console.error);
 
@@ -23,3 +28,4 @@ sanityClient
  * NOTE: For the time being you should not delete more than ~1000 documents in one transaction. This will change in the future.
  * See docs:https://www.sanity.io/docs/http-api/http-mutations#deleting-multiple-documents-by-query
  */
+// [ 'testDoc', 'author', 'collection', 'imgArry', 'ticket', 'testArticle', 'article', 'social', 'testdoc', 'category', 'performance', 'envtest', 'venue', 'timeDoc', 'show', 'sanity.imageAsset' ]

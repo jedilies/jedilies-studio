@@ -72,10 +72,15 @@ export default {
       type: 'portableText',
     },
     {
-      name: 'mdbody',
-      title: 'Body(Markdown)',
-      type: 'markdown',
-      lines: 20,
-    },
+      name: 'codeblock',
+      title: 'Codeblock',
+      type: 'code',
+    }
+    // {
+    //   name: 'mdbody',
+    //   title: 'Body(Markdown)',
+    //   type: 'markdown',
+    //   lines: 20,
+    // },
   ],
 };
