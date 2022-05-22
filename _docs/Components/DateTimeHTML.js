@@ -16,7 +16,7 @@ const DateTimeHTML = React.forwardRef((props, ref) => {
             presence,     // Presence information for collaborative avatars
             compareValue, // Value to check for "edited" functionality
             onFocus,      // Method to handle focus state
-            onBlur,       // Method to handle blur state  
+            onBlur,       // Method to handle blur state
             onChange      // Method to handle patch events
           } = props
 
