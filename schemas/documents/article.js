@@ -5,24 +5,19 @@ export default {
   preview: {
     select: {
       title: 'title',
+      media: 'image',
       category: 'category.title',
-      media: 'mainImage',
     },
-    prepare(selection: { category: any }) {
-      const { category } = selection;
+    prepare({ title, category, media }) {
       return {
-        ...selection,
-        subtitle: category && `${category}`,
+        title: title,
+        subtitle: category || 'No category',
+        media: media || '',
       };
     },
   },
   fields: [
-    {
-      name: 'title',
-      title: 'Title',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
-    },
+    { name: 'title', title: 'Title', type: 'string' },
     {
       name: 'published',
       title: 'Published',
@@ -71,16 +66,5 @@ export default {
       title: 'Body',
       type: 'portableText',
     },
-    {
-      name: 'codeblock',
-      title: 'Codeblock',
-      type: 'code',
-    }
-    // {
-    //   name: 'mdbody',
-    //   title: 'Body(Markdown)',
-    //   type: 'markdown',
-    //   lines: 20,
-    // },
   ],
 };

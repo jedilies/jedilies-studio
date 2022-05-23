@@ -7,15 +7,16 @@ import codeblock from './objects/codeblock';
 import category from './documents/category';
 import article from './documents/article';
 import author from './documents/author';
+import imgSet from './documents/imgSet';
 // Test
-import imgArray from './test/imgArray';
+// import imgArray from './test/imgArray';
 
 
 const schemaObjs = [portableText, codeblock];
-const schemaDocs = [author, article, category]//.map(
+const schemaDocs = [author, article, category, imgSet]//.map(
 //   obj => (obj.liveEdit = false) && obj // <-- set liveEdit true/flase for all docs
 // )
-const testDocs = [imgArray];
+const testDocs = [];
 
 const schemaItems = [...schemaObjs, ...schemaDocs, ...testDocs];
 

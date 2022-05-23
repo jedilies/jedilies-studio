@@ -56,10 +56,6 @@
       "path": "./schemas/schema"
     },
     {
-      "name": "part:@sanity/desk-tool/structure",
-      "path": "./structure/deskStructure"
-    },
-    {
       "implements": "part:@sanity/base/theme/variables/override-style",
       "path": "./styles/style-override.css"
     },
