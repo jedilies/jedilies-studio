@@ -10,7 +10,7 @@
     "start": "sanity start",
     "build": "sanity build",
     "upgrade": "sanity upgrade",
-    "test": "sanity test",
+    "configcheck": "sanity configcheck",
     "debug": "sanity debug",
     "deploy": "sanity deploy",
     "analyze": "sanity build --stats --profile --no-minify && npx webpack-bundle-analyzer build-stats.json"
