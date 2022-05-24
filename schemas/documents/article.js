@@ -22,13 +22,6 @@ export default {
   },
   fields: [
     { name: 'title', title: 'Title', type: 'string' },
-    // {
-    //   name: 'published',
-    //   title: 'Published',
-    //   type: 'boolean',
-    //   initialValue: false,
-    //   options: { layout: 'checkbox' },
-    // },
     {
       name: 'slug',
       title: 'Slug',
@@ -62,6 +55,19 @@ export default {
       name: 'image',
       title: 'Image',
       type: 'media',
+    },
+    {
+      name: 'tags',
+      title: 'Tags',
+      type: 'tags',
+      options: {
+        //Locks menu from creating new tags (defaults to false)
+        frozen: false,
+        //Preset of tags (defaults to empty)
+        // preload: [{label: "Oranges", value: "oranges"}, {label: "Apples", value: "apples"}],
+        //Closes menu after tag selected (defaults to true)
+        closeMenuOnSelect: true
+      }
     },
     {
       name: 'body',

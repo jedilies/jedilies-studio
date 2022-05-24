@@ -24,23 +24,17 @@
   ],
   "api": {
     "projectId": "hz6n859k",
-    "dataset": "production"
+    "dataset": "development"
   },
   "plugins": [
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "@sanity/dashboard",
-    "media-library",
-    "@sanity/vision",
-    "@sanity/color-input",
-    "@sanity/rich-date-input",
+    "autocomplete-tags",
     "@sanity/code-input",
-    "asset-source-unsplash",
-    "color-list",
-    "asset-source-giphy",
-    "markdown"
+    "media",
+    "@sanity/dashboard"
   ],
   "env": {
     "development": {
@@ -61,14 +55,6 @@
     {
       "implements": "part:@sanity/base/brand-logo",
       "path": "./components/logo"
-    },
-    {
-      "implements": "part:@sanity/form-builder/input/image/asset-sources",
-      "path": "./plugins/assetSources"
-    },
-    {
-      "implements": "part:@sanity/dashboard/config",
-      "path": "./plugins/dashboardConfig"
     }
   ]
 }

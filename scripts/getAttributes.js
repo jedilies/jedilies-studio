@@ -1,3 +1,4 @@
+/* eslint-disable no-empty-function */
 // https://&lt;hz6n859k&gt;.<http://api.sanity.io/v1/data/stats/&lt;production|api.sanity.io/v1/data/stats/&lt;production>&gt;
 
 // https://hz6n859k.api.sanity.io/v2021-10-21/data/stats/production
