@@ -6,6 +6,12 @@ export default {
   title: "Author",
   type: "document",
   icon: schemaIcon(PersonCircle),
+  preview: {
+    select: {
+      title: "name",
+      media: "image",
+    },
+  },
   fields: [
     {
       name: "name",
@@ -26,17 +32,5 @@ export default {
       type: "text",
       rows: 3,
     },
-    {
-      name: "categories",
-      title: "Categories",
-      type: "array",
-      of: [{ type: "reference", to: { type: "category" } }],
-    },
   ],
-  preview: {
-    select: {
-      title: "name",
-      media: "image",
-    },
-  },
 };

@@ -3,6 +3,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 // Objects
 import portableText from './objects/portableText';
 import codeblock from './objects/codeblock';
+import media from './objects/media';
 // Documents
 import category from './documents/category';
 import article from './documents/article';
@@ -12,7 +13,7 @@ import imgSet from './documents/imgSet';
 // import imgArray from './test/imgArray';
 
 
-const schemaObjs = [portableText, codeblock];
+const schemaObjs = [media, portableText, codeblock];
 const schemaDocs = [author, article, category, imgSet]//.map(
 //   obj => (obj.liveEdit = false) && obj // <-- set liveEdit true/flase for all docs
 // )

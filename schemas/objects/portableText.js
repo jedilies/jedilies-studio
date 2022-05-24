@@ -39,11 +39,8 @@ export default {
         ]
       }
     },
-    {type: 'image', options: { hotspot: true }},
-    {
-      name: 'code',
-      title: 'Code',
-      type: 'codeblock',
-    }
+    // {type: 'media'}, // BUG: schema (kinda?) requires a fresh title
+    {title: 'Media', type: 'media'},
+    {title: 'Code',type: 'codeblock',}
   ]
 };
