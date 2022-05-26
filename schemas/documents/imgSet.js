@@ -1,11 +1,11 @@
-import { Image } from "@styled-icons/ionicons-solid/Image";
-import schemaIcon from "../../components/icons/schemaIcon";
+// import { Image } from "@styled-icons/ionicons-solid/Image";
+// import schemaIcon from "../../components/icons/schemaIcon";
 
 export default {
   name: "imgSet",
   title: "Image Set",
   type: "document",
-  icon: schemaIcon(Image),
+  // icon: schemaIcon(Image),
   fields: [
     { name: "title", title: "Title", type: "string" },
     {

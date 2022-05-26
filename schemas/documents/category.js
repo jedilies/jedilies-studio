@@ -1,11 +1,11 @@
-import { FolderOpen } from '@styled-icons/ionicons-solid/FolderOpen'
-import schemaIcon from '../../components/icons/schemaIcon'
+// import { FolderOpen } from '@styled-icons/ionicons-solid/FolderOpen'
+// import schemaIcon from '../../components/icons/schemaIcon'
 
 export default {
   name: 'category',
   title: 'Category',
   type: 'document',
-  icon: schemaIcon(FolderOpen),
+  // icon: schemaIcon(FolderOpen),
   fields: [
     {
       name: 'title',

@@ -1,11 +1,11 @@
-import { PersonCircle } from "@styled-icons/ionicons-solid/PersonCircle";
-import schemaIcon from "../../components/icons/schemaIcon";
+// import { PersonCircle } from "@styled-icons/ionicons-solid/PersonCircle";
+// import schemaIcon from "../../components/icons/schemaIcon";
 
 export default {
   name: "author",
   title: "Author",
   type: "document",
-  icon: schemaIcon(PersonCircle),
+  // icon: schemaIcon(PersonCircle),
   preview: {
     select: {
       title: "name",

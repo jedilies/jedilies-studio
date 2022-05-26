@@ -1,22 +1,23 @@
-import { Documents, DocumentText } from 'styled-icons/ionicons-solid'
-import schemaIcon from '../../components/icons/schemaIcon'
+// import { Documents, DocumentText } from 'styled-icons/ionicons-solid'
+// import schemaIcon from '../../components/icons/schemaIcon'
 
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
-  icon: schemaIcon(Documents),
+  // icon: schemaIcon(Documents),
   preview: {
     select: {
       title: 'title',
       media: 'image',
+      author: 'author.name',
       category: 'category.title',
     },
-    prepare({ title, category, media }) {
+    prepare({ title, category, author, media }) {
       return {
         title: title,
-        subtitle: category || 'No category',
-        media: media || schemaIcon(DocumentText), // BUG: alt icon not loading
+        subtitle: `${category ? '🟢'+category : '🔴NA'}, ${author ? '🗣'+author : '🔴NoAuthor'}`,
+        media: media // || schemaIcon(DocumentText), // BUG: alt icon not loading
       }
     },
   },
@@ -40,16 +41,11 @@ export default {
       options: { disableNew: true },
     },
     {
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          to: { type: 'category', weak: true },
-          options: { disableNew: true },
-        },
-      ],
+      name: 'category',
+      title: 'Category',
+      type: 'reference',
+      to: { type: 'category', weak: true },
+      options: { disableNew: true },
     },
     {
       name: 'image',
